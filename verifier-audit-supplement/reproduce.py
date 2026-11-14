@@ -579,6 +579,27 @@ def reward_equivalence() -> dict:
     }
 
 
+def failed_duplicates() -> dict:
+    summary = load_member("camera_ready/e1b_failed_duplicate_reasons.json")
+    listed = summary["repeat_rows_listed"]
+    require(len(listed) == summary["repeat_rows"], "E1b rows do not add up")
+    flagged = sum(row["failed_a_one_added_payment_request_check"] for row in listed)
+    require(
+        flagged == summary["repeat_rows_failing_a_one_added_payment_request_check"],
+        "E1b count-check rows do not add up",
+    )
+    return {
+        "rows": summary["rows"],
+        "agent_model_pairs": summary["agent_model_pairs"],
+        "rows_with_any_payment_request_create": summary["rows_with_any_payment_request_create"],
+        "repeat_rows": summary["repeat_rows"],
+        "repeat_rows_by_status": summary["repeat_rows_by_status"],
+        "repeat_agent_model_pairs": summary["repeat_agent_model_pairs"],
+        "repeat_rows_failing_a_one_added_payment_request_check": flagged,
+        "model_calls": summary["model_calls"],
+    }
+
+
 def official_traces() -> dict:
     summary = load_member("camera_ready/e1_official_trace_regrade.json")
     require(summary["pass_rows"] + summary["fail_rows"] == summary["rows"], "E1 rows do not add up")
@@ -692,6 +713,7 @@ def camera_ready(swap: dict, vectors: list[dict], readback: dict) -> dict:
         "workarena_paired_census": paired_census(),
         "workarena_rerun_withdrawal": rerun_withdrawal(readback),
         "e1_official_traces": official_traces(),
+        "e1b_failed_duplicates": failed_duplicates(),
         "e2_reward_equivalence": reward_equivalence(),
         "e6_natural_runs": natural_runs(),
         "workarena_perstep": workarena_perstep(),

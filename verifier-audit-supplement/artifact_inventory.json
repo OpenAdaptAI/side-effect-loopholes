@@ -169,6 +169,14 @@
       "transform": "aggregate-summary-of-committed-output"
     },
     {
+      "archive_path": "camera_ready/e1b_failed_duplicate_reasons.json",
+      "increment": "camera-ready-zero-cost-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/camera_ready_2026_10/zero_cost/e1b_failed_duplicate_reasons.json",
+      "source_sha256": "b08da672877df119f7c73dd4a641aaad8d4831ddcdac0c74705ad576e6fd2003",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
       "archive_path": "camera_ready/e2_reward_equivalence.json",
       "increment": "camera-ready-zero-cost-results",
       "license": "AppWorld-bundle-terms",

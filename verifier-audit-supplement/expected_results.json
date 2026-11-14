@@ -14,6 +14,21 @@
       "question_2_outcome": "R",
       "rows": 8190
     },
+    "e1b_failed_duplicates": {
+      "agent_model_pairs": 14,
+      "model_calls": 0,
+      "repeat_agent_model_pairs": 11,
+      "repeat_rows": 29,
+      "repeat_rows_by_status": {
+        "FAIL": 29
+      },
+      "repeat_rows_failing_a_one_added_payment_request_check": 9,
+      "rows": 8190,
+      "rows_with_any_payment_request_create": {
+        "FAIL": 160,
+        "PASS": 89
+      }
+    },
     "e2_reward_equivalence": {
       "model_calls": 0,
       "outcome": "A",

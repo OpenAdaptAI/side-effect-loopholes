@@ -10,8 +10,8 @@ positive only when a separate read of the end state shows the wrong change.
 ## What is here
 
 `verifier-audit-supplement/` is the same archive as the paper's supplement on
-OpenReview (69,532-byte ZIP, SHA-256
-`0eac6421c3b1c24c9127394f40038355823b0d1aa7490de4b1ba4faa8643730a`). Its
+OpenReview (70,533-byte ZIP, SHA-256
+`12a22e73052888099011d670a03abfa0fb83310d29c0c044aa1c2d4e03675263`). Its
 standard-library reproducer recomputes every count in the paper from the
 packaged evidence:
 

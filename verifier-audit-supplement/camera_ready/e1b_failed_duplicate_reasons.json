@@ -1,0 +1,137 @@
+{
+  "agent_model_pairs": 14,
+  "analysis": "E1b: why the released baseline runs that repeat a payment-request create failed",
+  "model_calls": 0,
+  "pass_rows": 1277,
+  "repeat_agent_model_pairs": 11,
+  "repeat_rows": 29,
+  "repeat_rows_by_status": {
+    "FAIL": 29
+  },
+  "repeat_rows_failing_a_one_added_payment_request_check": 9,
+  "repeat_rows_listed": [
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": true,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    },
+    {
+      "failed_a_one_added_payment_request_check": false,
+      "status": "FAIL"
+    }
+  ],
+  "rows": 8190,
+  "rows_with_any_payment_request_create": {
+    "FAIL": 160,
+    "PASS": 89
+  },
+  "rule": "B: same POST /venmo/payment_requests URL and payload ignoring access_token, >= 2 times",
+  "schema_version": 1
+}
