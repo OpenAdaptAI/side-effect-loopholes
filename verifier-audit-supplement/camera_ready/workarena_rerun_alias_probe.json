@@ -1,0 +1,136 @@
+{
+  "browsergym_workarena": "0.5.3",
+  "cells": 23,
+  "cells_by_template": {
+    "create-change-request": 4,
+    "create-hardware-asset": 9,
+    "create-incident": 9,
+    "create-problem": 1
+  },
+  "count_checks": [
+    {
+      "claim": "browsergym-workarena version",
+      "expected": "0.5.3",
+      "observed": "0.5.3",
+      "ok": true
+    },
+    {
+      "claim": "manifest cells",
+      "expected": 23,
+      "observed": 23,
+      "ok": true
+    },
+    {
+      "claim": "shared dict: hardware cells",
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    {
+      "claim": "shared dict: hardware cells whose expected serial_number the driver overwrote",
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    {
+      "claim": "shared dict: the serial_number is the only expected field changed",
+      "expected": [
+        "serial_number"
+      ],
+      "observed": [
+        "serial_number"
+      ],
+      "ok": true
+    },
+    {
+      "claim": "shared dict: other cells",
+      "expected": 14,
+      "observed": 14,
+      "ok": true
+    },
+    {
+      "claim": "shared dict: other cells with any expected value changed",
+      "expected": 0,
+      "observed": 0,
+      "ok": true
+    },
+    {
+      "claim": "shared dict: cells where the task_fields rebind did not alias the evaluator",
+      "expected": 23,
+      "observed": 23,
+      "ok": true
+    },
+    {
+      "claim": "deepcopy driver: cells with any expected value changed",
+      "expected": 0,
+      "observed": 0,
+      "ok": true
+    },
+    {
+      "claim": "counterfactual in-place append reaches the evaluator",
+      "expected": 2,
+      "observed": 2,
+      "ok": true
+    },
+    {
+      "claim": "readback records: confirmed cells equal the result file's count",
+      "expected": 21,
+      "observed": 21,
+      "ok": true
+    },
+    {
+      "claim": "accepted paper's confirmed WorkArena cells",
+      "expected": 21,
+      "observed": 21,
+      "ok": true
+    },
+    {
+      "claim": "confirmed cells that are hardware cells",
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    {
+      "claim": "confirmed cells outside hardware (clean)",
+      "expected": 12,
+      "observed": 12,
+      "ok": true
+    }
+  ],
+  "deep_copied_configuration": {
+    "cells_any_expected_value_changed": 0,
+    "cells_where_extra_field_list_stayed_separate": 23
+  },
+  "digest_checks_passed": 1,
+  "evidence_kind": "offline-object-identity-probe",
+  "network_attempts_blocked": 0,
+  "rerun_accounting": {
+    "default_alias_passes_by_template": {
+      "create-incident": 1,
+      "create-problem": 1
+    },
+    "nondefault_passes": 21,
+    "nondefault_passes_by_template": {
+      "create-change-request": 4,
+      "create-hardware-asset": 9,
+      "create-incident": 8
+    },
+    "nondefault_passes_hardware_asset": 9,
+    "nondefault_passes_outside_hardware_asset": 12
+  },
+  "rerun_manifest_sha256": "4ae31024cf596e39c13581cd44c4f69c428cdd7ef97c6888bec4ae41e600d68d",
+  "rerun_result_sha256": "716c630386fcc17c62c7825a7d4177cd34d4294dc24d1f0fb693af905c25fe50",
+  "schema_version": 1,
+  "shared_configuration": {
+    "cells_where_extra_field_list_stayed_separate": 23,
+    "hardware_asset_cells": 9,
+    "hardware_asset_cells_driver_fill_differs_from_goal_on_serial": 9,
+    "hardware_asset_cells_expected_serial_overwritten_by_driver": 9,
+    "hardware_asset_expected_fields_changed": [
+      "serial_number"
+    ],
+    "other_cells": 14,
+    "other_cells_any_expected_value_changed": 0
+  },
+  "subject": "the withdrawn 23-cell WorkArena extra-field rerun (data/workarena_extra_readback.json)"
+}

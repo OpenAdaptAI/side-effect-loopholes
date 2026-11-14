@@ -1,0 +1,1189 @@
+{
+  "entries": [
+    {
+      "archive_path": "data/intent_swap_cells.json",
+      "increment": "appworld-intent-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/fullgrid_results.json",
+      "source_sha256": "8f9d5b7e398c40a12cc68c6bc1f29e60502702456ed34968f6affbddc8ef1774",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/intent_swap_cells.json",
+      "increment": "workarena-intent-results",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/workarena_grid_results.json",
+      "source_sha256": "59684cf38aff8d459b2238580a80efb3c4e8bf244608fa2f50892e470d3ee2d2",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/manifests.json",
+      "increment": "appworld-intent-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/fullgrid_results.json",
+      "source_sha256": "8f9d5b7e398c40a12cc68c6bc1f29e60502702456ed34968f6affbddc8ef1774",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/manifests.json",
+      "increment": "workarena-intent-results",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/workarena_grid_results.json",
+      "source_sha256": "59684cf38aff8d459b2238580a80efb3c4e8bf244608fa2f50892e470d3ee2d2",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/manifests.json",
+      "increment": "fault-arm-v3-census",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/intent_swap/fault_arm_census_v3.json",
+      "source_sha256": "2bf5745eb087756e36354e562da3f34293f364e7e5c892f669c4c8c73c41e14d",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/fault_censuses.json",
+      "increment": "fault-arm-v3-census",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/intent_swap/fault_arm_census_v3.json",
+      "source_sha256": "2bf5745eb087756e36354e562da3f34293f364e7e5c892f669c4c8c73c41e14d",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/fault_censuses.json",
+      "increment": "fault-arm-v3-census",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/fault_arm_idempotence_census_v3.json",
+      "source_sha256": "30487eea7ddc5a511a74187bcc65c9ddb8ea229e5fe0792a4ccf77210ca2e238",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/fault_family_vectors.json",
+      "increment": "retained-evidence-correction",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/intent_swap/fault_arm_bounds_v3.json",
+      "source_sha256": "b56fef6bb2a5a65f581d7d8db97afb85fe6f39703f5ea5d2fa9fe3453eef3667",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/rank_consequence.json",
+      "increment": "appworld-rank-consequence-salvage",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/rank_slice/rank_slice_manifest.json",
+      "source_sha256": "9766ef3fc9a6430e072faf619087fc93d9a175a95a2ec8517d79d09ea432eea5",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/rank_consequence.json",
+      "increment": "appworld-rank-consequence-salvage",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/rank_slice/rank_slice_results.json",
+      "source_sha256": "e7d96040b29331c87c9e71c1a148507885dff7526ba169691f4153508efc7220",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "protocol_v3.json",
+      "increment": "retained-evidence-correction",
+      "license": "first-party",
+      "source_path": "analysis/intent_swap/PROTOCOL_FAULT_ARM_V3_2026_08_24.md",
+      "source_sha256": "d48853904d8ac95159f6b0ba98d553dd5ebc3bc63a66b1c6a5d1ed243adb906f",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "protocol_v3.json",
+      "increment": "retained-evidence-correction",
+      "license": "first-party",
+      "source_path": "analysis/fault_arm.py",
+      "source_sha256": "78ab0a4e34db264949a113c7a9c92536773b3608d0ab67e1371fbcee0f6bbebe",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-registration",
+      "license": "first-party",
+      "source_path": "analysis/intent_swap/PROTOCOL_WORKARENA_EFFECT_READBACK_2026_08_28.md",
+      "source_sha256": "55999343f24eb67d51cd59f3dc6587a4a3444da5ab1bb208f55b7f1d522db12d",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-registration",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/workarena_effect_readback_manifest.json",
+      "source_sha256": "4ae31024cf596e39c13581cd44c4f69c428cdd7ef97c6888bec4ae41e600d68d",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-classification-correction",
+      "license": "first-party",
+      "source_path": "workarena/validate_effect_readback.py",
+      "source_sha256": "7b3f3701d39b94fa9d71ca03a0d4f1eeb8dbcf55ee7bfae6628e2dc7f8e2c9de",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-classification-correction",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/workarena_effect_readback_result.json",
+      "source_sha256": "716c630386fcc17c62c7825a7d4177cd34d4294dc24d1f0fb693af905c25fe50",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/wa_effect_readback_20260828/ledger.json",
+      "source_sha256": "668571c0b0b7d4a6b9cfb6653fe4221a18383048af65603349ea9702a0437ab4",
+      "transform": "non-reconstructive-sanitized-derivative"
+    },
+    {
+      "archive_path": "camera_ready/workarena_paired_census.json",
+      "increment": "camera-ready-retally",
+      "license": "Apache-2.0",
+      "source_path": "analysis/camera_ready_2026_10/outputs/v3_retally.json",
+      "source_sha256": "9fcd0cd24fb9f64d8c04af2b23348731bd86e05bdfc317201934fbd8d38453fc",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/workarena_rerun_alias_probe.json",
+      "increment": "camera-ready-retally",
+      "license": "Apache-2.0",
+      "source_path": "analysis/camera_ready_2026_10/outputs/alias_probe.json",
+      "source_sha256": "6148036658afaa3ecfc3c8aa8716e465c1936a7ea8fcb4d2f21c9154a0c83d4f",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/operator_tally.json",
+      "increment": "camera-ready-retally",
+      "license": "mixed-sanitized-analysis",
+      "source_path": "analysis/camera_ready_2026_10/outputs/tally.json",
+      "source_sha256": "41bfd2e8d352a7fe364ab7c7a7bdda3fffb4fb0d45934dacaf207e1b6c2f8678",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/e1_official_trace_regrade.json",
+      "increment": "camera-ready-zero-cost-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/camera_ready_2026_10/zero_cost/e1_official_trace_regrade.json",
+      "source_sha256": "885ff42ad1cead2cdc6b548f1eca1b140e8d7efcd156a0b3bb730af1dd08b4c5",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/e2_reward_equivalence.json",
+      "increment": "camera-ready-zero-cost-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/camera_ready_2026_10/zero_cost/e2_reward_equivalence.json",
+      "source_sha256": "51b91522f381fa35b2e3eba03b99d1eaea45b205fc3cb4f12f16e2d36b0c1ee9",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/e6_natural_runs_count_check.json",
+      "increment": "camera-ready-zero-cost-results",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/camera_ready_2026_10/zero_cost/e6_natural_false_reject.json",
+      "source_sha256": "9e6881e73737ec6bc56fe1bd76d23257d7a294f6d37561a46eb1827ad8b05668",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "camera_ready/workarena_perstep_episodes.json",
+      "increment": "workarena-perstep-results",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/wa_perstep_2026_10/results.json",
+      "source_sha256": "4cb583e9a1b51b87b262ed7595be7a24b1b0fb1d174f9709dc88610b52c7fa95",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
+      "archive_path": "patch_repair/PROTOCOL_PATCH_REPAIR_2026_08_30.md",
+      "increment": "appworld-patch-repair",
+      "license": "first-party",
+      "source_path": "analysis/intent_swap/PROTOCOL_PATCH_REPAIR_2026_08_30.md",
+      "source_sha256": "d6c2c75249abe76fe023144329a736ac00a0ec8288df07593a1907e04fdd3e87",
+      "transform": "verbatim-copy-of-frozen-protocol"
+    },
+    {
+      "archive_path": "patch_repair/patches.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/tests/22cc237/evaluation.py",
+      "source_sha256": "8030296e0146fd945e7312fa1248342d366e654c4d8576969301822599eadbcb",
+      "transform": "digests-and-description-only-no-source-lines"
+    },
+    {
+      "archive_path": "patch_repair/patches.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/tests/396c5a2/evaluation.py",
+      "source_sha256": "85d70e4c4533974f7b07e496e48d3635bbdb52e8d435d8a7a9aeab7bdc3505e3",
+      "transform": "digests-and-description-only-no-source-lines"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/summary.json",
+      "source_sha256": "d6b25ec789d729ec61da04eec396dabc0f2693172b99b393583f44c2677a54d0",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_1__CONTROL/grade.json",
+      "source_sha256": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_1__F-EXTRA-NI/grade.json",
+      "source_sha256": "46b45abee7fce614608cf9e9e39efe6303d732a4634efa37b0521ccf266fec3f",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_2__CONTROL/grade.json",
+      "source_sha256": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_2__F-EXTRA-NI/grade.json",
+      "source_sha256": "b27480eebb58df20a1b9db817ed398e0b434102244df3246b0a2dc5b8f584ab4",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_3__CONTROL/grade.json",
+      "source_sha256": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/22cc237_3__F-EXTRA-NI/grade.json",
+      "source_sha256": "296a992bdb87b8a352504177710972d8eb0ec8babd15e1354ecb18c7c63eeb6c",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_1__CONTROL/grade.json",
+      "source_sha256": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_1__F-EXTRA-NI/grade.json",
+      "source_sha256": "a224ddd2a4d7674cf07c36b36ab113f12aafbce26bb49eaf4b6dc96097ffcf09",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_2__CONTROL/grade.json",
+      "source_sha256": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_2__F-EXTRA-NI/grade.json",
+      "source_sha256": "df6dba2ee0fcfe35405c0dcf5848f486e0a8fd82d9778a74aed643a1c00e7007",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_3__CONTROL/grade.json",
+      "source_sha256": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "patch_repair/regrade_summary.json",
+      "increment": "appworld-patch-repair",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "analysis/intent_swap/patch_repair/run/cells/396c5a2_3__F-EXTRA-NI/grade.json",
+      "source_sha256": "d66ad10317726313fbacec15cf6b2c64ae59d6643571bb591cddd46774e12747",
+      "transform": "requirement-count-derivative-without-requirement-text"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V1:control:grade.json",
+      "source_sha256": "1f9713dcd04bf4021c259e8fb265804c5777a096abde39c417a4451be8649485",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V1:control:replay.json",
+      "source_sha256": "b82eeb43e4ccad7057579251436c35e7def0b8769fbc2d7d7f1f37770684489e",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V1:f_extra:grade.json",
+      "source_sha256": "d56a979bff1db98bf4e8f5f030ac5426ec3568c41c7ead3e6b90cad323650a3e",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V1:f_extra:replay.json",
+      "source_sha256": "d1eeef7ea8556f6c3446a028940d797fdf353c985a0ea524e07a1aa591cf3f75",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V2:control:grade.json",
+      "source_sha256": "91275dfcaaf2ce5325f9ef7ea18012566f62924f51540db8ea74f9929c4a56c9",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V2:control:replay.json",
+      "source_sha256": "8eb6c1f3f56c8ef9635f358234213e929d6e9e7a576b553a61c883885e7431b1",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V2:f_extra:grade.json",
+      "source_sha256": "69333554d32a686781424808252fe94c40167fc67a0caa446366451cde581767",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V2:f_extra:replay.json",
+      "source_sha256": "37dd496661fa380ebb580f77f4c22700f53c5a3dbf4b07930b87606accc52c26",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V3:control:grade.json",
+      "source_sha256": "64fa5e18e47beba41d00e42ad45b2ef3d23092d96f874c39a4926d6fe72c45a0",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V3:control:replay.json",
+      "source_sha256": "d0c7e51d203e765a42acf92e0d7260d18f8b6d5013bf77a81b63fa8d534c5e12",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V3:f_extra:grade.json",
+      "source_sha256": "d328fd04d97f764fc46089b3e7ae7ded65c751652baa57a4b3e1362ec175b5ec",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG06-V3:f_extra:replay.json",
+      "source_sha256": "260a60f88d66e29cee9ffed03270b6b1746f8af606dd2a3464c24c29ab860860",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V1:control:grade.json",
+      "source_sha256": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V1:control:replay.json",
+      "source_sha256": "e9bc130e2ce3f6aa37368928b9345eb4f1264aa2a792bddaa5d093d4c55e5dbe",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V1:f_extra:grade.json",
+      "source_sha256": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V1:f_extra:replay.json",
+      "source_sha256": "93112d00c5db80bb71e7440eb6546bd4887b6995fb89c3e55f45c288cf90f9f3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V2:control:grade.json",
+      "source_sha256": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V2:control:replay.json",
+      "source_sha256": "376cf82d8d8aa6a0475fb7a8e12d5d1a9f9c457435b680de11c3f900f2fdae1b",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V2:f_extra:grade.json",
+      "source_sha256": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V2:f_extra:replay.json",
+      "source_sha256": "94405e09524cdb510a879b0ad7c091725dfea82bc9d14d9fdbc74c2ce2499283",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V3:control:grade.json",
+      "source_sha256": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V3:control:replay.json",
+      "source_sha256": "2ece259e7e78fefaa9ec4336cb626ff30335be01f4a147c5aa3699ff04e3b374",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V3:f_extra:grade.json",
+      "source_sha256": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG01-V3:f_extra:replay.json",
+      "source_sha256": "3fcda8a8d9a20ec46eb7360700dc892e2f01b974a74655954f9b1727de0648b1",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V1:control:grade.json",
+      "source_sha256": "79c417fdcf1dd53214667b31a7088618a2e60c45cb7b2bb54bb044c6d2341a34",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V1:control:replay.json",
+      "source_sha256": "890d98daafa3dffd93307328611ddc08fedb38ebb2f5e2446cb14ad6d9d050dd",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V1:f_extra:grade.json",
+      "source_sha256": "d6dc0a608b3e4599af02302fb63e84baa6c3696e9f42606a3c65d277d6dbc428",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V1:f_extra:replay.json",
+      "source_sha256": "4195034e277c68bbeefa02845636cd5f42ced5804dabf75e9bb1814677ab8d1c",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V2:control:grade.json",
+      "source_sha256": "ce29b363b00e8cba0083107f31f94aa87dcaba5d0dd16028fa52f04945104898",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V2:control:replay.json",
+      "source_sha256": "8b38ccb61e1c30ca867fdf05458818bbbec16cd5aa7b7722ad6e749829a0a6a3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V2:f_extra:grade.json",
+      "source_sha256": "1fb6503b6daf787aac64477e285a727d31d99f553ae979c5d7b68790ab8cd3f5",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V2:f_extra:replay.json",
+      "source_sha256": "769756861b6df422c0b136702e7a583ea8c02d31a934b019f4ae4b3d89c7177b",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V3:control:grade.json",
+      "source_sha256": "3b696606211b17914024cbc0363ea8029c8a3fd5e1bebe9351f39537dcd4122d",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V3:control:replay.json",
+      "source_sha256": "af2799a7ad1b1cfdacb6fdf187793cdbd04a92ac8b4d106c870d3b25406701ad",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V3:f_extra:grade.json",
+      "source_sha256": "4463dc8fb8dd7b0705d9d13687d8b3da691b4e005d35ba06514278ebe6327c4d",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG14-V3:f_extra:replay.json",
+      "source_sha256": "7b58a11373dce63635d17da710f4927d5675f0b0d239a846941e120b0714c6e6",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V1:control:grade.json",
+      "source_sha256": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V1:control:replay.json",
+      "source_sha256": "ef579116a99e208845b550a8ccd7db7cb6713cac80e42ee3c22f00b2802ccf13",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V1:f_extra:grade.json",
+      "source_sha256": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V1:f_extra:replay.json",
+      "source_sha256": "8a2cb04ab605343f2f0643d0ab72446da0318dc2fee263ea74a311223dfa937f",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V2:control:grade.json",
+      "source_sha256": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V2:control:replay.json",
+      "source_sha256": "c351bab1ee26135bef089c593c3e4ca48a61895cd32e788be474cce391839661",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V2:f_extra:grade.json",
+      "source_sha256": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V2:f_extra:replay.json",
+      "source_sha256": "9a749d1db00d3ad531827c0c593b60a4b879d1932998bfd8ec1abe59a3172a4e",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V3:control:grade.json",
+      "source_sha256": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V3:control:replay.json",
+      "source_sha256": "24bca00b94a9bb283c1b3c7b475e5959474955f0e55cfc3ac47b5289a98fadba",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V3:f_extra:grade.json",
+      "source_sha256": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG03-V3:f_extra:replay.json",
+      "source_sha256": "b8925b32514f7b3540baa050bc68e596de447e75dd5c28f26baed093a86fd067",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V1:control:grade.json",
+      "source_sha256": "049aa8fde48a13af4b04f01e637120b9a42ae8baa956f41a5564b9c64b52f901",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V1:control:replay.json",
+      "source_sha256": "b5c911c6ae25c78df68ffaee246b7f1d7dacb97a90a16204d04ac455b2cf4875",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V1:f_extra:grade.json",
+      "source_sha256": "be5759e6b1a530ef3e765a88ff194a26ff402608c7789fd605d3ca8c6aa0a0e3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V1:f_extra:replay.json",
+      "source_sha256": "32c07b2f44b962f1cc9eda137452483b1377573ba33a15e62a27ddf65efd2ece",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V2:control:grade.json",
+      "source_sha256": "446b8d7db5c0c49f802db15abc4d2f7dea163ec9c38237304a17caee8526a153",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V2:control:replay.json",
+      "source_sha256": "bab28f1dc785e9107c6e80ab6d0895b55e9ffe567ebd5274ae345ac93fc229c6",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V2:f_extra:grade.json",
+      "source_sha256": "4cfd6d1d74e0262f7f77979c6cf4304ed10f01427ec67479ff080d055a5d2f1a",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V2:f_extra:replay.json",
+      "source_sha256": "0a718a2711ffc2121bb3df6a4bf9494523d7fbc2f4966e9b710d2f24f8ea9a84",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V3:control:grade.json",
+      "source_sha256": "206155d14cb67dc90323f76134a03a1bd9b0c39eb2bb8df5cd16f5ce36052bb3",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V3:control:replay.json",
+      "source_sha256": "092659723a4006c0f25e000bad1cce2a3db70d07a47cde01e34bac0d1eee23ce",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V3:f_extra:grade.json",
+      "source_sha256": "2c185a8144c44149ad4d4a398f96715be02c41deb274e0b5c7e402b96dde1785",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/appworld_extra_cells.json",
+      "increment": "retained-evidence-publication",
+      "license": "AppWorld-bundle-terms",
+      "source_path": "private-source:AWG16-V3:f_extra:replay.json",
+      "source_sha256": "a5c4bb1a6d4df29085c19f60ab1b0e034e5d30e1395e76ab8ff871364450ac51",
+      "transform": "field-minimized-anonymous-count-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:readback-ledger:json",
+      "source_sha256": "668571c0b0b7d4a6b9cfb6653fe4221a18383048af65603349ea9702a0437ab4",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:readback-preflight:json",
+      "source_sha256": "925bdbb787158d459d019f68fbd46e86e8caa76181b70b404f2e6cd0962c0fdc",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF010:json",
+      "source_sha256": "c5ecd287e349de8820fcb94062ad88f64254faeb1f95ce87e4c5f03ef552fc64",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF010:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF003:json",
+      "source_sha256": "8dece4bc1324e5e60c627ab2f35b56e2fa1b61417769bbb14bed294aebc8238e",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF003:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF011:json",
+      "source_sha256": "6edbbbe3d0c9387c7a31dc947d4ec610b1ba3d016f1b3c6a1283f0d0abc094e4",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF011:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF022:json",
+      "source_sha256": "4386cc11a0f6a9ae5a0c45be4a54fa3a0c4dd83652f67d55d61b1b22b462caf7",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF022:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF001:json",
+      "source_sha256": "43c8d9991a70dff4e0a3fb810889873a35429666926b09e51166320a478ba698",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF001:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF020:json",
+      "source_sha256": "9f9be9f586269f0dec23321e3457a19ef22b7d3b50f5dd038c955d1788a28b37",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF020:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF002:json",
+      "source_sha256": "4927a2a3f1c1a2fcb117b37bc05e9592490d5fba6d18e71ed274becc79050a61",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF002:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF015:json",
+      "source_sha256": "738c636592b9da5862fc00d0c658cbf1b6a138a11a2d9c6f8dd6481058e9fb18",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF015:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF004:json",
+      "source_sha256": "aead24e2e86597a34477ab73270c8b99c561913fdda288b30e4bd78f88979e95",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF004:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF023:json",
+      "source_sha256": "e1c257cf64b0937ffd632cb19fd8304879cc6a6b10480d0392e49cc2d9f3a418",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF023:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF005:json",
+      "source_sha256": "e4e68b51c664da1841bee2fdf0fcd5a189a288a3d27edb17a3c24cfa2d0edfe8",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF005:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF018:json",
+      "source_sha256": "efacb20b32a0dee5db23338d7b348f8455580c610851c3ab32544f0c6241da09",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF018:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF012:json",
+      "source_sha256": "76e32c87adc30b17e4a699c2609c38d87c86c018dd826ae1a74ebd39e47047f5",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF012:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF019:json",
+      "source_sha256": "d16cda1e360b5d33ff0d32080e5b54138f991afdeefc002a9982fe2470dcab95",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF019:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF008:json",
+      "source_sha256": "5922488ce439663d0b03c2aff583b96c2e31fce57bfb7ac72c957b55673c1c38",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF008:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF007:json",
+      "source_sha256": "997f26e547574d38b134e277f6f33fcdc57ed4df446f180e4c2241adf39c6781",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF007:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF016:json",
+      "source_sha256": "cf9d2c7b9179d23530de425329fc81defa749f205404a8748849fc8d5982f923",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF016:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF014:json",
+      "source_sha256": "b7aca9bd184480c61124f0a266e3a0f40222126ac6bcf8d41da339e46574dc80",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF014:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF021:json",
+      "source_sha256": "0c595f68b3c9e11ea97943e877071e2475d4b58d4ccb87dbb00b8e2ec9d6c91e",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF021:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF009:json",
+      "source_sha256": "6ae09ff33633b4288972e9235107cbd09cc7252124a246b1d80264d79f07ff03",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF009:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF013:json",
+      "source_sha256": "8c0b9f97f31a8ff10456d5c519d98132c2bce1fe10112326cc400be73e06ae9a",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF013:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF017:json",
+      "source_sha256": "102eec15fa0a444467393ad8dcb91b32e02e1cbdc47799b1fa621fd8f6ee97e1",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF017:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF006:json",
+      "source_sha256": "aec5df3edc60b65712898137e1a4478d8c84e51a392a65cad4ebcd7b7ca80c94",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    },
+    {
+      "archive_path": "data/workarena_extra_readback.json",
+      "increment": "workarena-readback-results",
+      "license": "Apache-2.0",
+      "source_path": "private-source:WRF006:log",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transform": "field-minimized-anonymous-readback-derivative"
+    }
+  ],
+  "schema_version": 1
+}

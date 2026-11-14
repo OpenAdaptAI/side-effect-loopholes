@@ -1,0 +1,282 @@
+{
+  "checker": {
+    "delivered_extra_field_flag_at_check_time": {
+      "unset": 147
+    },
+    "delivered_reward": {
+      "1": 147
+    },
+    "delivered_with_verdict": 147,
+    "valid_control_reward": {
+      "1": 57
+    },
+    "valid_mutation_reward": {
+      "1": 36
+    }
+  },
+  "count_checks": [
+    {
+      "claim": "scheduled episodes",
+      "expected": 168,
+      "observed": 168,
+      "ok": true
+    },
+    {
+      "claim": "valid episodes",
+      "expected": 93,
+      "observed": 93,
+      "ok": true
+    },
+    {
+      "claim": "valid control episodes",
+      "expected": 57,
+      "observed": 57,
+      "ok": true
+    },
+    {
+      "claim": "valid mutation episodes",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "valid controls the shipped checker passed (reward 1)",
+      "expected": 57,
+      "observed": 57,
+      "ok": true
+    },
+    {
+      "claim": "valid mutations the shipped checker passed (reward 1)",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "valid mutations whose readback confirmed the extra saved value",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "pairs in the frozen frame",
+      "expected": 84,
+      "observed": 84,
+      "ok": true
+    },
+    {
+      "claim": "complete valid pairs",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "complete valid pairs with mutation PASS and control PASS",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "complete valid pairs classified CONFIRMED_WRONG",
+      "expected": 36,
+      "observed": 36,
+      "ok": true
+    },
+    {
+      "claim": "unresolved pairs",
+      "expected": 48,
+      "observed": 48,
+      "ok": true
+    },
+    {
+      "claim": "templates with a complete valid pair",
+      "expected": [
+        "create-change-request",
+        "create-incident"
+      ],
+      "observed": [
+        "create-change-request",
+        "create-incident"
+      ],
+      "ok": true
+    },
+    {
+      "claim": "distinct extra-field identities in complete valid pairs",
+      "expected": 12,
+      "observed": 12,
+      "ok": true
+    },
+    {
+      "claim": "delivered episodes with a checker verdict",
+      "expected": 147,
+      "observed": 147,
+      "ok": true
+    },
+    {
+      "claim": "delivered episodes with the bad-field flag 'unset' at check time",
+      "expected": 147,
+      "observed": 147,
+      "ok": true
+    },
+    {
+      "claim": "valid episodes with isolated driver and evaluator",
+      "expected": 93,
+      "observed": 93,
+      "ok": true
+    }
+  ],
+  "digest_checks_passed": 2,
+  "episodes": {
+    "invalid_by_template_condition": {
+      "create-change-request:mutation": 15,
+      "create-hardware-asset:control": 27,
+      "create-hardware-asset:mutation": 27,
+      "create-problem:mutation": 6
+    },
+    "invalid_reasons": [
+      {
+        "episodes": 54,
+        "problems": [
+          "evaluator fixed_config differs from the frozen pre-reset config",
+          "evaluator template_record differs from frozen fixed_config"
+        ]
+      },
+      {
+        "episodes": 21,
+        "problems": [
+          "checker-visible browser state is missing",
+          "delivery differs from the registered condition",
+          "effect_readback is missing",
+          "post_validation specification stage is missing",
+          "pre_effect_readback specification stage is missing",
+          "pre_validation specification stage is missing",
+          "specification equality attestation is missing",
+          "the driver specification changed during delivery",
+          "the shipped checker verdict is unavailable",
+          "the trajectory-proof cell did not finish cleanly"
+        ]
+      }
+    ],
+    "scheduled": 168,
+    "valid": 93,
+    "valid_by_condition": {
+      "control": 57,
+      "mutation": 36
+    }
+  },
+  "evidence_kind": "paired-control-and-mutation-table-api-readback",
+  "first_episode_started_utc": "2026-08-29T04:30:34.482755+00:00",
+  "frame_manifest_sha256": "73c0c3603c68375e0e161674106d074d45668dc3b8f3557f7dabf433913584f8",
+  "isolation_of_valid_episodes": [
+    {
+      "driver_specification_unchanged": true,
+      "episodes": 93,
+      "same_task_object": false,
+      "shared_mutable_specification_objects": 0,
+      "specification_all_equal": true
+    }
+  ],
+  "last_episode_started_utc": "2026-08-29T16:31:18.493328+00:00",
+  "pairs": {
+    "complete_valid": 36,
+    "complete_valid_by_template": {
+      "create-change-request": 12,
+      "create-incident": 24
+    },
+    "complete_valid_candidates": [
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 0,
+        "field": "assignment_group",
+        "template": "create-change-request"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 0,
+        "field": "backout_plan",
+        "template": "create-change-request"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 2,
+        "field": "assignment_group",
+        "template": "create-change-request"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 2,
+        "field": "category",
+        "template": "create-change-request"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 0,
+        "field": "category",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 0,
+        "field": "contact_type",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 0,
+        "field": "description",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 1,
+        "field": "close_notes",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 1,
+        "field": "contact_type",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 1,
+        "field": "description",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 2,
+        "field": "close_notes",
+        "template": "create-incident"
+      },
+      {
+        "complete_valid_pairs": 3,
+        "configuration": 2,
+        "field": "cmdb_ci",
+        "template": "create-incident"
+      }
+    ],
+    "complete_valid_control_checker": {
+      "PASS": 36
+    },
+    "complete_valid_mutation_checker": {
+      "PASS": 36
+    },
+    "complete_valid_readback_confirmed_extra_value": 36,
+    "scheduled": 84,
+    "scheduled_by_template": {
+      "create-change-request": 27,
+      "create-hardware-asset": 27,
+      "create-incident": 24,
+      "create-problem": 6
+    },
+    "unresolved": 48,
+    "unresolved_by_template": {
+      "create-change-request": 15,
+      "create-hardware-asset": 27,
+      "create-problem": 6
+    }
+  },
+  "schema_version": 1,
+  "scope": "one post-submit checker call per episode; per-step validation not tested"
+}

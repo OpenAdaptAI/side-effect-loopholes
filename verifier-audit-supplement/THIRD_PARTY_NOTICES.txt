@@ -1,0 +1,30 @@
+Third-party notices
+
+AppWorld
+
+The study used appworld 0.1.3.post1 with data version 0.1.0. The upstream
+repository code is under Apache-2.0. AppWorld's protected code and data,
+which include every task's evaluator, are released in an encrypted bundle
+under Apache-2.0 with one more condition: any public redistribution of them,
+or of a derivative, must also be encrypted.
+
+This archive holds no protected AppWorld file and no line from one. The two
+evaluator changes in patch_repair/ appear only as SHA-256 digests, line
+counts, and a description in words. The regrade summary keeps requirement
+counts and drops the requirement text. Every other AppWorld derivative is an
+anonymous count. The archive includes no task text, evaluator assertion,
+payload, endpoint, database model name, or alias map. The only AppWorld
+task identifiers are the six regraded tasks named in the frozen patch-repair
+protocol.
+
+The E1 summary counts rows in AppWorld's released baseline outputs
+(experiment-outputs-0.1.0). It keeps totals only.
+
+WorkArena
+
+The study used browsergym-workarena 0.5.3. WorkArena is under Apache-2.0 and
+has a 2024 ServiceNow copyright notice. The runtime pin used Playwright 1.44.0
+and Chromium 125.0.6422.26, build 1117. This archive includes anonymous result
+rows and aggregate counts that name WorkArena form templates and field names.
+It includes no upstream source code, no hosted instance identifier, and no
+credential.

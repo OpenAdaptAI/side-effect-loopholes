@@ -1,0 +1,382 @@
+{
+  "cells": [
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF010",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "c5ecd287e349de8820fcb94062ad88f64254faeb1f95ce87e4c5f03ef552fc64",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF003",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "8dece4bc1324e5e60c627ab2f35b56e2fa1b61417769bbb14bed294aebc8238e",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF011",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "6edbbbe3d0c9387c7a31dc947d4ec610b1ba3d016f1b3c6a1283f0d0abc094e4",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF022",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "4386cc11a0f6a9ae5a0c45be4a54fa3a0c4dd83652f67d55d61b1b22b462caf7",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF001",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "43c8d9991a70dff4e0a3fb810889873a35429666926b09e51166320a478ba698",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF020",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "9f9be9f586269f0dec23321e3457a19ef22b7d3b50f5dd038c955d1788a28b37",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF002",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "4927a2a3f1c1a2fcb117b37bc05e9592490d5fba6d18e71ed274becc79050a61",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV1",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF015",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "738c636592b9da5862fc00d0c658cbf1b6a138a11a2d9c6f8dd6481058e9fb18",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF004",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "aead24e2e86597a34477ab73270c8b99c561913fdda288b30e4bd78f88979e95",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT02",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF023",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "e1c257cf64b0937ffd632cb19fd8304879cc6a6b10480d0392e49cc2d9f3a418",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT01",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV1",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF005",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "e4e68b51c664da1841bee2fdf0fcd5a189a288a3d27edb17a3c24cfa2d0edfe8",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT03",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF018",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "efacb20b32a0dee5db23338d7b348f8455580c610851c3ab32544f0c6241da09",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT03",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF012",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "76e32c87adc30b17e4a699c2609c38d87c86c018dd826ae1a74ebd39e47047f5",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT03",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF019",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "d16cda1e360b5d33ff0d32080e5b54138f991afdeefc002a9982fe2470dcab95",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT03",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF008",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "5922488ce439663d0b03c2aff583b96c2e31fce57bfb7ac72c957b55673c1c38",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF007",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "997f26e547574d38b134e277f6f33fcdc57ed4df446f180e4c2241adf39c6781",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF016",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "cf9d2c7b9179d23530de425329fc81defa749f205404a8748849fc8d5982f923",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF014",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "b7aca9bd184480c61124f0a266e3a0f40222126ac6bcf8d41da339e46574dc80",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF021",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "0c595f68b3c9e11ea97943e877071e2475d4b58d4ccb87dbb00b8e2ec9d6c91e",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV3",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF009",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "6ae09ff33633b4288972e9235107cbd09cc7252124a246b1d80264d79f07ff03",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 1,
+      "cell": "WRF013",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "8c0b9f97f31a8ff10456d5c519d98132c2bce1fe10112326cc400be73e06ae9a",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 2,
+      "cell": "WRF017",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "102eec15fa0a444467393ad8dcb91b32e02e1cbdc47799b1fa621fd8f6ee97e1",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    },
+    {
+      "candidate_ordinal": 3,
+      "cell": "WRF006",
+      "checker_verdict": "PASS",
+      "cleanup_clean": true,
+      "evidence_sha256": "aec5df3edc60b65712898137e1a4478d8c84e51a392a65cad4ebcd7b7ca80c94",
+      "http_status": 200,
+      "resumed": false,
+      "template": "WRT04",
+      "value_equivalence": {
+        "default": "WV1",
+        "persisted_display": "WV2",
+        "persisted_raw": "WV2",
+        "requested": "WV2"
+      }
+    }
+  ],
+  "evidence_kind": "post-submit-record-field-readback",
+  "sanitized_protocol": {
+    "fixed_cell_count": 23,
+    "fixed_template_count": 4,
+    "nondefault_effect_rule": "requested-alias-observed-and-default-alias-not-observed",
+    "query_phase": "after-submit-before-checker-and-cleanup",
+    "retry_policy": "no-retry-after-possible-submit"
+  },
+  "schema_version": 2,
+  "selection": "earlier-checker-pass-candidates"
+}

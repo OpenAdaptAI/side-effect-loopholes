@@ -1,0 +1,5955 @@
+{
+  "complete_valid_groups": 35,
+  "groups": [
+    {
+      "candidate_id": "waef-create-incident-c0-f0",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0001",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0002",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "category",
+      "group_id": "psg01-probe",
+      "mode": "probe",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f0",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0003",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 7,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0004",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 1,
+          "first_terminal_field": "category",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 1,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "true",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0005",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 8,
+          "first_terminal_field": "category",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 8,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "true",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "category",
+      "group_id": "psg01-perstep",
+      "mode": "perstep",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f0",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0006",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0007",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.category"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_persisted_flag": "true",
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "category",
+      "group_id": "psg01-persisted",
+      "mode": "persisted",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0008",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 1,
+          "first_terminal_field": "contact_type",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 1,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "contact_type",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0009",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 8,
+          "first_terminal_field": "contact_type",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 8,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "contact_type",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0010",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 7,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg02-perstep",
+      "mode": "perstep",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0011",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.contact_type"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_persisted_flag": "true",
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0012",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg02-persisted",
+      "mode": "persisted",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0013",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0014",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg02-probe",
+      "mode": "probe",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0015",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0016",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.description"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "description",
+      "group_id": "psg03-persisted",
+      "mode": "persisted",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0017",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0018",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "description",
+      "group_id": "psg03-probe",
+      "mode": "probe",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0019",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 8,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0020",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 7,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0021",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 1,
+          "first_terminal_field": "short_description",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "SPAN"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "knowledge",
+              "kind": "checkbox",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "description",
+      "group_id": "psg03-perstep",
+      "mode": "perstep",
+      "task": "create-incident#0"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f0",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0022",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0023",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg04-probe",
+      "mode": "probe",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f0",
+      "complete_valid": false,
+      "episodes": [
+        {
+          "browsergym_episode_reward": null,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0024",
+          "extra_field_kind": null,
+          "extra_field_metadata_type": null,
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": null,
+          "post_submit_verdict": "NOT_SCORED",
+          "post_submit_window_flag": null,
+          "pre_insert_active_element": {
+            "name": null,
+            "tag": "BODY"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [
+            "delivery differs from the registered condition",
+            "pre_effect_readback specification stage is missing",
+            "pre_validation specification stage is missing",
+            "post_validation specification stage is missing",
+            "specification equality attestation is missing",
+            "the driver specification changed during delivery",
+            "effect_readback is missing",
+            "checker-visible browser state is missing",
+            "the shipped checker verdict is unavailable",
+            "the trajectory-proof cell did not finish cleanly"
+          ],
+          "readback_status": null,
+          "step_count": 12,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": null,
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": false,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0025",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 1,
+          "first_terminal_field": "short_description",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 13,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0026",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 13,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 13,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg04-perstep",
+      "mode": "perstep",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f0",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0027",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.close_notes"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0028",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg04-persisted",
+      "mode": "persisted",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0029",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 1,
+          "first_terminal_field": "contact_type",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 1,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "contact_type",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 13,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0030",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 13,
+          "first_terminal_field": "contact_type",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 13,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "contact_type",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 13,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0031",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 12,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg05-perstep",
+      "mode": "perstep",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0032",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0033",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.contact_type"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "true",
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg05-persisted",
+      "mode": "persisted",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0034",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0035",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "contact_type",
+      "group_id": "psg05-probe",
+      "mode": "probe",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0036",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.description"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0037",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "description",
+      "group_id": "psg06-persisted",
+      "mode": "persisted",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0038",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0039",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "description",
+      "group_id": "psg06-probe",
+      "mode": "probe",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c1-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0040",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 13,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.description",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 13,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0041",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 12,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0042",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 1,
+          "first_terminal_field": "short_description",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 13,
+          "steps": [
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 11,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "parent_incident",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 12,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 13,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "description",
+      "group_id": "psg06-perstep",
+      "mode": "perstep",
+      "task": "create-incident#1"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0043",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0044",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg07-probe",
+      "mode": "probe",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0045",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 9,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0046",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 1,
+          "first_terminal_field": "short_description",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0047",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 10,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg07-perstep",
+      "mode": "perstep",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0048",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0049",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "incident.close_notes"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "incident.close_notes",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "close_notes",
+      "group_id": "psg07-persisted",
+      "mode": "persisted",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0050",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 1,
+          "first_terminal_field": "short_description",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0051",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 10,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0052",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 9,
+          "steps": [
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caller_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "problem_id",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "rfc",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "caused_by",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "service_offering",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "cmdb_ci",
+      "group_id": "psg08-perstep",
+      "mode": "perstep",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0053",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "sys_display.incident.cmdb_ci"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0054",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "cmdb_ci",
+      "group_id": "psg08-persisted",
+      "mode": "persisted",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-incident-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0055",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.cmdb_ci",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0056",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.incident.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "cmdb_ci",
+      "group_id": "psg08-probe",
+      "mode": "probe",
+      "task": "create-incident#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0057",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0058",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "sys_display.change_request.assignment_group"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg09-persisted",
+      "mode": "persisted",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0059",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0060",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg09-probe",
+      "mode": "probe",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0061",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 8,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0062",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 7,
+          "steps": [
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0063",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 1,
+          "first_terminal_field": "cmdb_ci",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg09-perstep",
+      "mode": "perstep",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0064",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.backout_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0065",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "backout_plan",
+      "group_id": "psg10-probe",
+      "mode": "probe",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0066",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 7,
+          "steps": [
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0067",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 1,
+          "first_terminal_field": "cmdb_ci",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0068",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "extra_field_step": 8,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.backout_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 8,
+          "steps": [
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_notes",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "number",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "backout_plan",
+      "group_id": "psg10-perstep",
+      "mode": "perstep",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c0-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0069",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "change_request.backout_plan"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.backout_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0070",
+          "extra_field_kind": "text",
+          "extra_field_metadata_type": "string",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.number",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "backout_plan",
+      "group_id": "psg10-persisted",
+      "mode": "persisted",
+      "task": "create-change-request#0"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0071",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 1,
+          "first_terminal_field": "close_code",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 2,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0072",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": 10,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "assignment_group",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "extra",
+              "step": 10,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0073",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 9,
+          "steps": [
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg11-perstep",
+      "mode": "perstep",
+      "task": "create-change-request#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0074",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0075",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "sys_display.change_request.assignment_group"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg11-persisted",
+      "mode": "persisted",
+      "task": "create-change-request#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f1",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0076",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0077",
+          "extra_field_kind": "reference",
+          "extra_field_metadata_type": "reference",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "sys_display.change_request.assignment_group",
+            "tag": "INPUT"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "assignment_group",
+      "group_id": "psg11-probe",
+      "mode": "probe",
+      "task": "create-change-request#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "copy_rejected_on_persisted_flag": true,
+          "episode_id": "ps0078",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [
+            "change_request.category"
+          ],
+          "placement": "last",
+          "post_submit_message": "Some fields outside of the task scope have been changed.",
+          "post_submit_persisted_flag": "true",
+          "post_submit_verdict": "FAIL",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "true",
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "copy_rejected_on_persisted_flag": false,
+          "episode_id": "ps0079",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "persisted",
+          "persisted_changed_names": [],
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_persisted_flag": "unset",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_persisted_flag": "unset",
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "category",
+      "group_id": "psg12-persisted",
+      "mode": "persisted",
+      "task": "create-change-request#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0080",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "valid": true
+        },
+        {
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0081",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "mode": "probe",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "valid": true
+        }
+      ],
+      "field": "category",
+      "group_id": "psg12-probe",
+      "mode": "probe",
+      "task": "create-change-request#2"
+    },
+    {
+      "candidate_id": "waef-create-change-request-c2-f2",
+      "complete_valid": true,
+      "episodes": [
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0082",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 10,
+          "first_terminal_field": "category",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 10,
+          "mode": "perstep",
+          "placement": "last",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 1,
+          "cleanup_clean": true,
+          "condition": "control",
+          "episode_id": "ps0083",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": null,
+          "first_terminal_field": null,
+          "first_terminal_outcome": null,
+          "first_terminal_step": null,
+          "mode": "perstep",
+          "placement": "none",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "unset",
+          "problems": [],
+          "readback_status": "CONFIRMED_CONTROL_EFFECT",
+          "step_count": 9,
+          "steps": [
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 1,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": false,
+              "window_flag": "unset"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "NONTERMINAL_ZERO",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": false,
+              "window_flag": "unset"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        },
+        {
+          "browsergym_episode_reward": 0,
+          "cleanup_clean": true,
+          "condition": "mutation",
+          "episode_id": "ps0084",
+          "extra_field_kind": "select",
+          "extra_field_metadata_type": "choice",
+          "extra_field_step": 1,
+          "first_terminal_field": "category",
+          "first_terminal_outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+          "first_terminal_step": 1,
+          "mode": "perstep",
+          "placement": "first",
+          "post_submit_message": "The record was successfully created.",
+          "post_submit_verdict": "PASS",
+          "post_submit_window_flag": "unset",
+          "pre_insert_active_element": {
+            "name": "change_request.test_plan",
+            "tag": "TEXTAREA"
+          },
+          "pre_insert_window_flag": "true",
+          "problems": [],
+          "readback_status": "CONFIRMED_MUTATED_EFFECT",
+          "step_count": 10,
+          "steps": [
+            {
+              "field": "category",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "extra",
+              "step": 1,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "close_code",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 2,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk_impact_analysis",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 3,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "short_description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 4,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "business_service",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 5,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "backout_plan",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 6,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "cmdb_ci",
+              "kind": "reference",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 7,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "risk",
+              "kind": "select",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 8,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "description",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 9,
+              "terminated": true,
+              "window_flag": "true"
+            },
+            {
+              "field": "test_plan",
+              "kind": "text",
+              "outcome": "TERMINAL_OUT_OF_SCOPE_REJECT",
+              "reward": 0,
+              "role": "task",
+              "step": 10,
+              "terminated": true,
+              "window_flag": "true"
+            }
+          ],
+          "valid": true,
+          "validate_raised_steps": []
+        }
+      ],
+      "field": "category",
+      "group_id": "psg12-perstep",
+      "mode": "perstep",
+      "task": "create-change-request#2"
+    }
+  ],
+  "run_episodes": 84,
+  "scheduled_episodes": 84,
+  "schema_version": "workarena-perstep-results/v1",
+  "scored": true,
+  "valid_episodes": 83
+}

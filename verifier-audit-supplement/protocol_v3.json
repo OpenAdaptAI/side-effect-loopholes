@@ -1,0 +1,23 @@
+{
+  "amendments": [
+    "The sealed holdout was not used.",
+    "The AppWorld duplicate-write arm requires a clean paired replay and an application-cardinality difference.",
+    "The frozen WorkArena follow-up reads the selected extra field after submit and before checker and cleanup."
+  ],
+  "appworld_population": {
+    "generator_count": 16,
+    "split": "DEV",
+    "task_count": 48,
+    "variants_per_generator": 3
+  },
+  "registration": {
+    "stage_a": "protocol and enumeration code",
+    "stage_b": "mutation and idempotence censuses",
+    "stage_c": "checker scoring"
+  },
+  "schema_version": 1,
+  "workarena_population": {
+    "config_ordinals": [0, 1, 2],
+    "template_count": 13
+  }
+}

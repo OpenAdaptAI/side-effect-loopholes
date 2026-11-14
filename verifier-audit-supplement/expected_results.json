@@ -1,0 +1,447 @@
+{
+  "camera_ready": {
+    "e1_official_traces": {
+      "configurations": 28,
+      "fail_rows_repeating_payment_request_create": {
+        "A": 28,
+        "B": 29
+      },
+      "fail_rows_with_identical_payment_request_pair": 6,
+      "model_calls": 0,
+      "pass_rows": 1277,
+      "pass_rows_with_a_repeated_or_identical_target_write": 0,
+      "question_1_outcome": "A",
+      "question_2_outcome": "R",
+      "rows": 8190
+    },
+    "e2_reward_equivalence": {
+      "model_calls": 0,
+      "outcome": "A",
+      "pairs": 6,
+      "pairs_by_generator": {
+        "22cc237": 3,
+        "396c5a2": 3
+      },
+      "pairs_whose_duplicate_made_extra_writes": 6,
+      "pairs_with_equal_reward_under_all_three_formulas": 6
+    },
+    "e6_natural_runs": {
+      "count_check_rejects": 0,
+      "model_calls": 0,
+      "outcome": "A",
+      "positive_control_active": "4/4",
+      "shipped_accept": 13,
+      "shipped_accept_distinct_call_logs": 12,
+      "shipped_accept_end_state_equals_reference": 12,
+      "task_ids": 4,
+      "trials": 17
+    },
+    "operator_tally": {
+      "appworld_extra_checker_pass": 39,
+      "appworld_extra_pass_effect_correct": 33,
+      "binding_checker_pass": 0,
+      "binding_off_diagonal_valid": {
+        "appworld": 2263,
+        "total": 2689,
+        "workarena": 426
+      },
+      "confirmed_false_accepts": 6,
+      "confirmed_false_accepts_by_generator": {
+        "22cc237": 3,
+        "396c5a2": 3
+      },
+      "one_parameter_twins": {
+        "appworld": 43,
+        "total": 118,
+        "workarena": 75
+      },
+      "postcondition_checker_fail": 252,
+      "postcondition_checker_pass": 9,
+      "postcondition_families_with_a_pass": [
+        "workarena:W-OMIT-FIELD"
+      ],
+      "postcondition_pass_effect_correct": 9,
+      "postcondition_scored": 261
+    },
+    "workarena_paired_census": {
+      "complete_valid_candidate_fields": 12,
+      "complete_valid_control_checker_pass": 36,
+      "complete_valid_field_names": [
+        "assignment_group",
+        "backout_plan",
+        "category",
+        "close_notes",
+        "cmdb_ci",
+        "contact_type",
+        "description"
+      ],
+      "complete_valid_mutation_checker_pass": 36,
+      "complete_valid_pairs": 36,
+      "complete_valid_readback_confirmed_extra_value": 36,
+      "complete_valid_templates": [
+        "create-change-request",
+        "create-incident"
+      ],
+      "delivered_extra_field_flag_unset": 147,
+      "delivered_with_verdict": 147,
+      "scheduled_episodes": 168,
+      "scheduled_pairs": 84,
+      "scope": "one post-submit checker call per episode; per-step validation not tested",
+      "unresolved_hardware_asset_pairs": 27,
+      "unresolved_mutation_stopped_before_checker": 21,
+      "unresolved_pairs": 48,
+      "valid_controls": 57,
+      "valid_controls_reward_1": 57,
+      "valid_episodes_isolated": 93,
+      "valid_mutations": 36
+    },
+    "workarena_perstep": {
+      "complete_valid_groups": 35,
+      "copy_rejected_control": "0/12",
+      "copy_rejected_mutant": "12/12",
+      "perstep_control_ended": "0/11",
+      "perstep_control_reward_1": "11/11",
+      "perstep_first_ended": "11/11",
+      "perstep_last_ended": "4/11",
+      "perstep_last_reward_1": "7/11",
+      "probe_control_flag_set": "0/12",
+      "probe_mutant_flag_set": "4/12",
+      "scheduled_episodes": 84,
+      "valid_episodes": 83
+    },
+    "workarena_rerun_withdrawal": {
+      "deep_copy_cells_any_expected_value_changed": 0,
+      "hardware_asset_cells": 9,
+      "hardware_asset_cells_expected_serial_overwritten": 9,
+      "nondefault_passes_outside_hardware_asset": 12,
+      "other_cells": 14,
+      "other_cells_any_expected_value_changed": 0,
+      "rerun_cells": 23,
+      "rerun_nondefault_passes": 21,
+      "status": "withdrawn"
+    }
+  },
+  "fault_arm": {
+    "appworld_duplicate_write": {
+      "census_tasks": 48,
+      "checker_fail": 9,
+      "checker_pass": 6,
+      "control_checker_pass": 15,
+      "degenerate_edits": 33,
+      "eligible_effects": 15,
+      "eligible_generators": 5,
+      "evidence_kind": "paired-replay-application-cardinality",
+      "mutation_eligible": 48,
+      "non_idempotent": 15,
+      "positive_generators": 2
+    },
+    "per_family_vectors": [
+      {
+        "checker_fail": 48,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-trace-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "appworld:F-CLAIM-ONLY",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 0,
+        "registered_or_observed": 48,
+        "scored": 48
+      },
+      {
+        "checker_fail": 9,
+        "checker_pass": 39,
+        "degenerate_pass": 33,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "paired-replay-application-cardinality",
+        "false_accepts_supported_by_this_evidence": 6,
+        "family": "appworld:F-EXTRA",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": 15,
+        "refused": 0,
+        "registered_or_observed": 48,
+        "scored": 48
+      },
+      {
+        "checker_fail": 48,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-trace-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "appworld:F-OMIT",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 0,
+        "registered_or_observed": 48,
+        "scored": 48
+      },
+      {
+        "checker_fail": 39,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-trace-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "appworld:F-PARTIAL",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 9,
+        "registered_or_observed": 48,
+        "scored": 39
+      },
+      {
+        "checker_fail": 33,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-trace-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "appworld:F-WRONG-VALUE",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 15,
+        "registered_or_observed": 48,
+        "scored": 33
+      },
+      {
+        "checker_fail": 27,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-browser-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "workarena:W-CLAIM-ONLY",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 25,
+        "registered_or_observed": 52,
+        "scored": 27
+      },
+      {
+        "checker_fail": 39,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-browser-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "workarena:W-NO-SUBMIT",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 0,
+        "registered_or_observed": 39,
+        "scored": 39
+      },
+      {
+        "checker_fail": 16,
+        "checker_pass": 0,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-browser-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "workarena:W-OMIT-DIVERGENT",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 23,
+        "registered_or_observed": 39,
+        "scored": 16
+      },
+      {
+        "checker_fail": 2,
+        "checker_pass": 9,
+        "degenerate_pass": 9,
+        "effect_unconfirmed_pass": 0,
+        "errors": 0,
+        "evidence_kind": "registered-browser-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "workarena:W-OMIT-FIELD",
+        "incomplete_delivery": 0,
+        "independently_verified_state_difference": null,
+        "refused": 2,
+        "registered_or_observed": 13,
+        "scored": 11
+      },
+      {
+        "checker_fail": 0,
+        "checker_pass": 23,
+        "degenerate_pass": 0,
+        "effect_unconfirmed_pass": 23,
+        "errors": 0,
+        "evidence_kind": "registered-browser-edit-and-checker-verdict",
+        "false_accepts_supported_by_this_evidence": null,
+        "family": "workarena:W-EXTRA-FIELD",
+        "incomplete_delivery": 13,
+        "independently_verified_state_difference": null,
+        "refused": 40,
+        "registered_or_observed": 76,
+        "scored": 23
+      }
+    ],
+    "workarena_extra_field_readback": {
+      "checker_pass": 23,
+      "cleanup_clean": 23,
+      "completed_readbacks": 23,
+      "default_value_also_observed": 2,
+      "degenerate_checker_passes": 2,
+      "evidence_kind": "post-submit-record-field-readback",
+      "oracle_nondefault_pass_templates": 3,
+      "oracle_nondefault_passes": 21,
+      "requested_value_observed": 23,
+      "resumed": 0,
+      "selected_cells": 23,
+      "selected_templates": 4,
+      "selection": "earlier-checker-pass-candidates",
+      "status": "withdrawn-see-camera_ready/workarena_rerun_alias_probe.json"
+    }
+  },
+  "intent_swap": {
+    "appworld": {
+      "checker_pass": 0,
+      "diagonal_controls": 31,
+      "errors": 0,
+      "grid_cells": 2294,
+      "off_diagonal_valid": 2263,
+      "per_rung": [
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-0",
+          "valid": 43
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-1",
+          "valid": 144
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-2",
+          "valid": 369
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-3",
+          "valid": 1707
+        }
+      ]
+    },
+    "combined_checker_pass": 0,
+    "combined_off_diagonal_valid": 2689,
+    "interpretation": "checker-verdict-census-not-false-accept-rate",
+    "workarena": {
+      "checker_pass": 0,
+      "diagonal_controls": 39,
+      "errors": 3,
+      "foreign_session_provenance_rejections": 57,
+      "grid_cells": 468,
+      "off_diagonal_valid": 426,
+      "per_rung": [
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-0",
+          "valid": 75
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-1",
+          "valid": 78
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-2",
+          "valid": 216
+        },
+        {
+          "checker_pass": 0,
+          "rung": "RUNG-3",
+          "valid": 57
+        }
+      ]
+    }
+  },
+  "patch_repair": {
+    "control_still_pass": 6,
+    "extra_row_failures_on_the_patched_requirement": 6,
+    "extra_row_pass_to_fail": 6,
+    "patched_generators": 2,
+    "shipped_lines_changed_or_deleted": 0,
+    "six_of_six": true
+  },
+  "rank_consequence": {
+    "false_accept_input": {
+      "confirmed_cells": 6,
+      "generator_clusters": 5,
+      "independently_verified_wrong_effect_cells": 15,
+      "positive_generators": 2
+    },
+    "false_reject_input": {
+      "control_generators": 11,
+      "distinct_controls": 31,
+      "false_rejects": 0,
+      "raw_judged_rows_before_deduplication": 75
+    },
+    "interpretation": "sensitivity-intervals-not-regraded-ranks",
+    "metric": "Task Goal Completion",
+    "official_archive": {
+      "bundle": "https://s3.us-west-2.amazonaws.com/appworld.dev/experiment-outputs-0.1.0.bundle",
+      "bundle_version": "0.1.0",
+      "factual_subset_sha256": "f83096970eba5eee9272dc6edddd88108d04f246fb56dd4380a63484ed769aaa"
+    },
+    "splits": {
+      "test_challenge": {
+        "illustrative_cluster_95": {
+          "alpha_max": 0.8107,
+          "beta_max": 0.2384,
+          "pair_order_survival": 0.0,
+          "pairs_surviving": 0,
+          "pairs_undecided": 91,
+          "shipped_leader_uniquely_identified": false,
+          "shipped_ties": 0,
+          "strict_shipped_pairs": 91
+        },
+        "observed_magnitude": {
+          "alpha_max": 0.4,
+          "beta_max": 0.0,
+          "pair_order_survival": 0.0,
+          "pairs_surviving": 0,
+          "pairs_undecided": 91,
+          "shipped_leader_uniquely_identified": false,
+          "shipped_ties": 0,
+          "strict_shipped_pairs": 91
+        }
+      },
+      "test_normal": {
+        "illustrative_cluster_95": {
+          "alpha_max": 0.8107,
+          "beta_max": 0.2384,
+          "pair_order_survival": 0.0,
+          "pairs_surviving": 0,
+          "pairs_undecided": 91,
+          "shipped_leader_uniquely_identified": false,
+          "shipped_ties": 0,
+          "strict_shipped_pairs": 91
+        },
+        "observed_magnitude": {
+          "alpha_max": 0.4,
+          "beta_max": 0.0,
+          "pair_order_survival": 0.06593406593406594,
+          "pairs_surviving": 6,
+          "pairs_undecided": 85,
+          "shipped_leader_uniquely_identified": false,
+          "shipped_ties": 0,
+          "strict_shipped_pairs": 91
+        }
+      }
+    }
+  },
+  "schema_version": 5
+}

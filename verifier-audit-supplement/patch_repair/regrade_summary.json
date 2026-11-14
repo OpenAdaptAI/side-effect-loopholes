@@ -1,0 +1,151 @@
+{
+  "cells": [
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "22cc237",
+      "regraded_verdict": "PASS",
+      "requirements": 4,
+      "requirements_failed": 0,
+      "requirements_passed": 4,
+      "shipped_verdict": "PASS",
+      "source_sha256": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+      "variant": 1
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "22cc237",
+      "regraded_verdict": "FAIL",
+      "requirements": 4,
+      "requirements_failed": 1,
+      "requirements_passed": 3,
+      "shipped_verdict": "PASS",
+      "source_sha256": "46b45abee7fce614608cf9e9e39efe6303d732a4634efa37b0521ccf266fec3f",
+      "variant": 1
+    },
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "22cc237",
+      "regraded_verdict": "PASS",
+      "requirements": 4,
+      "requirements_failed": 0,
+      "requirements_passed": 4,
+      "shipped_verdict": "PASS",
+      "source_sha256": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+      "variant": 2
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "22cc237",
+      "regraded_verdict": "FAIL",
+      "requirements": 4,
+      "requirements_failed": 1,
+      "requirements_passed": 3,
+      "shipped_verdict": "PASS",
+      "source_sha256": "b27480eebb58df20a1b9db817ed398e0b434102244df3246b0a2dc5b8f584ab4",
+      "variant": 2
+    },
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "22cc237",
+      "regraded_verdict": "PASS",
+      "requirements": 4,
+      "requirements_failed": 0,
+      "requirements_passed": 4,
+      "shipped_verdict": "PASS",
+      "source_sha256": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+      "variant": 3
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "22cc237",
+      "regraded_verdict": "FAIL",
+      "requirements": 4,
+      "requirements_failed": 1,
+      "requirements_passed": 3,
+      "shipped_verdict": "PASS",
+      "source_sha256": "296a992bdb87b8a352504177710972d8eb0ec8babd15e1354ecb18c7c63eeb6c",
+      "variant": 3
+    },
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "396c5a2",
+      "regraded_verdict": "PASS",
+      "requirements": 6,
+      "requirements_failed": 0,
+      "requirements_passed": 6,
+      "shipped_verdict": "PASS",
+      "source_sha256": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+      "variant": 1
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "396c5a2",
+      "regraded_verdict": "FAIL",
+      "requirements": 6,
+      "requirements_failed": 1,
+      "requirements_passed": 5,
+      "shipped_verdict": "PASS",
+      "source_sha256": "a224ddd2a4d7674cf07c36b36ab113f12aafbce26bb49eaf4b6dc96097ffcf09",
+      "variant": 1
+    },
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "396c5a2",
+      "regraded_verdict": "PASS",
+      "requirements": 6,
+      "requirements_failed": 0,
+      "requirements_passed": 6,
+      "shipped_verdict": "PASS",
+      "source_sha256": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+      "variant": 2
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "396c5a2",
+      "regraded_verdict": "FAIL",
+      "requirements": 6,
+      "requirements_failed": 1,
+      "requirements_passed": 5,
+      "shipped_verdict": "PASS",
+      "source_sha256": "df6dba2ee0fcfe35405c0dcf5848f486e0a8fd82d9778a74aed643a1c00e7007",
+      "variant": 2
+    },
+    {
+      "condition": "control",
+      "failed_requirements_holding_the_inserted_assertion": 0,
+      "generator": "396c5a2",
+      "regraded_verdict": "PASS",
+      "requirements": 6,
+      "requirements_failed": 0,
+      "requirements_passed": 6,
+      "shipped_verdict": "PASS",
+      "source_sha256": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+      "variant": 3
+    },
+    {
+      "condition": "extra_ni",
+      "failed_requirements_holding_the_inserted_assertion": 1,
+      "generator": "396c5a2",
+      "regraded_verdict": "FAIL",
+      "requirements": 6,
+      "requirements_failed": 1,
+      "requirements_passed": 5,
+      "shipped_verdict": "PASS",
+      "source_sha256": "d66ad10317726313fbacec15cf6b2c64ae59d6643571bb591cddd46774e12747",
+      "variant": 3
+    }
+  ],
+  "evidence_kind": "post-census-regrade-of-copied-tests",
+  "requirement_text": "omitted",
+  "schema_version": 1
+}

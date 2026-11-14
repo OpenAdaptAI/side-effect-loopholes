@@ -1,0 +1,67 @@
+{
+  "provenance_contract": "Study stages record the relative protocol and scoring order. Source events record later evidence publication or correction. The public inventory identifies source bytes by SHA-256 and does not expose first-party repository revisions.",
+  "schema_version": 3,
+  "source_events": [
+    {
+      "after_stage": "fault-v3-results",
+      "before_stage": "workarena-readback-registration",
+      "event": "retained-evidence-publication",
+      "order": 1
+    },
+    {
+      "after_stage": "fault-v3-results",
+      "before_stage": "workarena-readback-registration",
+      "event": "retained-evidence-correction",
+      "order": 2
+    },
+    {
+      "after_stage": "workarena-readback-results",
+      "event": "workarena-readback-classification-correction",
+      "order": 3
+    },
+    {
+      "after_stage": "workarena-readback-results",
+      "event": "appworld-patch-repair",
+      "order": 4
+    },
+    {
+      "after_stage": "workarena-paired-census-results",
+      "before_stage": "camera-ready-zero-cost-registration",
+      "event": "camera-ready-retally",
+      "order": 5
+    },
+    {
+      "after_stage": "workarena-paired-census-results",
+      "event": "workarena-rerun-withdrawal",
+      "order": 6
+    },
+    {
+      "after_stage": "camera-ready-zero-cost-results",
+      "event": "appworld-evaluator-copies-removed",
+      "order": 7
+    }
+  ],
+  "study_stages": [
+    {"order": 1, "stage": "appworld-intent-registration"},
+    {"order": 2, "stage": "appworld-intent-results"},
+    {"order": 3, "stage": "workarena-intent-registration"},
+    {"order": 4, "stage": "fault-registration-v1"},
+    {"order": 5, "stage": "workarena-intent-results"},
+    {"order": 6, "stage": "fault-v1-census"},
+    {"order": 7, "stage": "fault-v1-results"},
+    {"order": 8, "stage": "fault-v2-registration"},
+    {"order": 9, "stage": "fault-v2-census"},
+    {"order": 10, "stage": "fault-v2-results"},
+    {"order": 11, "stage": "fault-v3-registration"},
+    {"order": 12, "stage": "fault-v3-census"},
+    {"order": 13, "stage": "fault-v3-results"},
+    {"order": 14, "stage": "workarena-readback-registration"},
+    {"order": 15, "stage": "workarena-readback-results"},
+    {"order": 16, "stage": "workarena-paired-census-registration"},
+    {"order": 17, "stage": "workarena-paired-census-results"},
+    {"order": 18, "stage": "camera-ready-zero-cost-registration"},
+    {"order": 19, "stage": "camera-ready-zero-cost-results"},
+    {"order": 20, "stage": "workarena-perstep-registration"},
+    {"order": 21, "stage": "workarena-perstep-results"}
+  ]
+}

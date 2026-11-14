@@ -1,0 +1,556 @@
+{
+  "binding_operators_intent_swap": {
+    "appworld": {
+      "diagonal_controls": 31,
+      "grid_cells": 2294,
+      "off_diagonal_valid": 2263,
+      "off_diagonal_verdicts": {
+        "FAIL": 2263
+      },
+      "one_parameter_twins": 43,
+      "valid_by_distance_level": {
+        "DIAG": 31,
+        "RUNG-0": 43,
+        "RUNG-1": 144,
+        "RUNG-2": 369,
+        "RUNG-3": 1707
+      }
+    },
+    "off_diagonal_pass_total": 0,
+    "off_diagonal_valid_total": 2689,
+    "one_parameter_twins_total": 118,
+    "workarena": {
+      "diagonal_controls": 39,
+      "evaluator_errors": {
+        "EVAL_ERROR": 3
+      },
+      "grid_cells": 468,
+      "off_diagonal_valid": 426,
+      "off_diagonal_verdicts": {
+        "FAIL": 426
+      },
+      "one_parameter_twins": 75,
+      "valid_by_distance_level": {
+        "DIAG": 39,
+        "RUNG-0": 75,
+        "RUNG-1": 78,
+        "RUNG-2": 216,
+        "RUNG-3": 57
+      }
+    }
+  },
+  "confirmed_false_accepts_by_generator": {
+    "22cc237": 3,
+    "396c5a2": 3
+  },
+  "count_checks": [
+    {
+      "claim": "Table 5 row appworld:F-CLAIM-ONLY equals the ledger",
+      "expected": [
+        48,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      "observed": [
+        48,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row appworld:F-EXTRA equals the ledger",
+      "expected": [
+        48,
+        0,
+        0,
+        33,
+        0,
+        15,
+        39,
+        6
+      ],
+      "observed": [
+        48,
+        0,
+        0,
+        33,
+        0,
+        15,
+        39,
+        6
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row appworld:F-OMIT equals the ledger",
+      "expected": [
+        48,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      "observed": [
+        48,
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row appworld:F-PARTIAL equals the ledger",
+      "expected": [
+        48,
+        9,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      "observed": [
+        48,
+        9,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row appworld:F-WRONG-VALUE equals the ledger",
+      "expected": [
+        48,
+        15,
+        0,
+        0,
+        0,
+        33,
+        0,
+        0
+      ],
+      "observed": [
+        48,
+        15,
+        0,
+        0,
+        0,
+        33,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row workarena:W-CLAIM-ONLY equals the ledger",
+      "expected": [
+        52,
+        25,
+        0,
+        0,
+        0,
+        27,
+        0,
+        0
+      ],
+      "observed": [
+        52,
+        25,
+        0,
+        0,
+        0,
+        27,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row workarena:W-EXTRA-FIELD equals the ledger",
+      "expected": [
+        76,
+        40,
+        13,
+        0,
+        23,
+        0,
+        23,
+        0
+      ],
+      "observed": [
+        76,
+        40,
+        13,
+        0,
+        23,
+        0,
+        23,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row workarena:W-NO-SUBMIT equals the ledger",
+      "expected": [
+        39,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      "observed": [
+        39,
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row workarena:W-OMIT-DIVERGENT equals the ledger",
+      "expected": [
+        39,
+        23,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0
+      ],
+      "observed": [
+        39,
+        23,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 row workarena:W-OMIT-FIELD equals the ledger",
+      "expected": [
+        13,
+        2,
+        0,
+        9,
+        0,
+        2,
+        9,
+        0
+      ],
+      "observed": [
+        13,
+        2,
+        0,
+        9,
+        0,
+        2,
+        9,
+        0
+      ],
+      "ok": true
+    },
+    {
+      "claim": "Table 5 scheduled edits, all families",
+      "expected": 459,
+      "observed": 459,
+      "ok": true
+    },
+    {
+      "claim": "AppWorld grid: ledger per_rung valid counts equal the accepted table",
+      "expected": {
+        "DIAG": 31,
+        "RUNG-0": 43,
+        "RUNG-1": 144,
+        "RUNG-2": 369,
+        "RUNG-3": 1707
+      },
+      "observed": {
+        "DIAG": 31,
+        "RUNG-0": 43,
+        "RUNG-1": 144,
+        "RUNG-2": 369,
+        "RUNG-3": 1707
+      },
+      "ok": true
+    },
+    {
+      "claim": "AppWorld grid: recounted diagonal cells equal ledger DIAG",
+      "expected": 31,
+      "observed": 31,
+      "ok": true
+    },
+    {
+      "claim": "AppWorld grid: recounted one-parameter twins equal ledger RUNG-0",
+      "expected": 43,
+      "observed": 43,
+      "ok": true
+    },
+    {
+      "claim": "AppWorld grid: recounted valid off-diagonal cells equal ledger rungs 0-3",
+      "expected": 2263,
+      "observed": 2263,
+      "ok": true
+    },
+    {
+      "claim": "AppWorld grid: diagonal cells that PASS",
+      "expected": 31,
+      "observed": 31,
+      "ok": true
+    },
+    {
+      "claim": "WorkArena grid: ledger per_rung valid counts equal the accepted table",
+      "expected": {
+        "DIAG": 39,
+        "RUNG-0": 75,
+        "RUNG-1": 78,
+        "RUNG-2": 216,
+        "RUNG-3": 57
+      },
+      "observed": {
+        "DIAG": 39,
+        "RUNG-0": 75,
+        "RUNG-1": 78,
+        "RUNG-2": 216,
+        "RUNG-3": 57
+      },
+      "ok": true
+    },
+    {
+      "claim": "WorkArena grid: recounted valid cells per rung equal ledger per_rung",
+      "expected": {
+        "DIAG": 39,
+        "RUNG-0": 75,
+        "RUNG-1": 78,
+        "RUNG-2": 216,
+        "RUNG-3": 57
+      },
+      "observed": {
+        "DIAG": 39,
+        "RUNG-0": 75,
+        "RUNG-1": 78,
+        "RUNG-2": 216,
+        "RUNG-3": 57
+      },
+      "ok": true
+    },
+    {
+      "claim": "WorkArena grid: evaluator errors",
+      "expected": 3,
+      "observed": 3,
+      "ok": true
+    },
+    {
+      "claim": "WorkArena grid: diagonal cells that PASS",
+      "expected": 39,
+      "observed": 39,
+      "ok": true
+    },
+    {
+      "claim": "postcondition edits scored",
+      "expected": 261,
+      "observed": 261,
+      "ok": true
+    },
+    {
+      "claim": "postcondition edits the checker failed",
+      "expected": 252,
+      "observed": 252,
+      "ok": true
+    },
+    {
+      "claim": "postcondition edits the checker passed",
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    {
+      "claim": "postcondition PASSes that left the requested effect correct",
+      "expected": 9,
+      "observed": 9,
+      "ok": true
+    },
+    {
+      "claim": "postcondition confirmed false accepts",
+      "expected": 0,
+      "observed": 0,
+      "ok": true
+    },
+    {
+      "claim": "the ledger's pooled rejection count equals the postcondition FAIL count",
+      "expected": 252,
+      "observed": 252,
+      "ok": true
+    },
+    {
+      "claim": "valid cross-task (off-diagonal) runs",
+      "expected": 2689,
+      "observed": 2689,
+      "ok": true
+    },
+    {
+      "claim": "cross-task runs the checker passed",
+      "expected": 0,
+      "observed": 0,
+      "ok": true
+    },
+    {
+      "claim": "one-parameter twins (rung 0)",
+      "expected": 118,
+      "observed": 118,
+      "ok": true
+    },
+    {
+      "claim": "confirmed false accepts",
+      "expected": 6,
+      "observed": 6,
+      "ok": true
+    },
+    {
+      "claim": "families holding the confirmed false accepts",
+      "expected": [
+        "F-EXTRA"
+      ],
+      "observed": [
+        "F-EXTRA"
+      ],
+      "ok": true
+    },
+    {
+      "claim": "AppWorld F-EXTRA PASSes that left a correct state",
+      "expected": 33,
+      "observed": 33,
+      "ok": true
+    }
+  ],
+  "digest_checks_passed": 0,
+  "frame_operators": {
+    "appworld:F-EXTRA": {
+      "PASS": 39,
+      "PASS_effect_correct": 33,
+      "confirmed_false_accepts": 6,
+      "scored": 48
+    },
+    "workarena:W-EXTRA-FIELD": {
+      "PASS": 23,
+      "PASS_effect_correct": 0,
+      "confirmed_false_accepts": 0,
+      "scored": 36
+    }
+  },
+  "postcondition_operators": {
+    "families": [
+      "appworld:F-CLAIM-ONLY",
+      "appworld:F-OMIT",
+      "appworld:F-PARTIAL",
+      "appworld:F-WRONG-VALUE",
+      "workarena:W-CLAIM-ONLY",
+      "workarena:W-NO-SUBMIT",
+      "workarena:W-OMIT-DIVERGENT",
+      "workarena:W-OMIT-FIELD"
+    ],
+    "per_family": {
+      "appworld:F-CLAIM-ONLY": {
+        "FAIL": 48,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 48
+      },
+      "appworld:F-OMIT": {
+        "FAIL": 48,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 48
+      },
+      "appworld:F-PARTIAL": {
+        "FAIL": 39,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 39
+      },
+      "appworld:F-WRONG-VALUE": {
+        "FAIL": 33,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 33
+      },
+      "workarena:W-CLAIM-ONLY": {
+        "FAIL": 27,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 27
+      },
+      "workarena:W-NO-SUBMIT": {
+        "FAIL": 39,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 39
+      },
+      "workarena:W-OMIT-DIVERGENT": {
+        "FAIL": 16,
+        "PASS": 0,
+        "PASS_effect_correct": 0,
+        "confirmed_false_accepts": 0,
+        "scored": 16
+      },
+      "workarena:W-OMIT-FIELD": {
+        "FAIL": 2,
+        "PASS": 9,
+        "PASS_effect_correct": 9,
+        "confirmed_false_accepts": 0,
+        "scored": 11
+      }
+    },
+    "totals": {
+      "FAIL": 252,
+      "PASS": 9,
+      "PASS_effect_correct": 9,
+      "confirmed_false_accepts": 0,
+      "scored": 261,
+      "scored_appworld": 168,
+      "scored_workarena": 93
+    }
+  },
+  "schema_version": 1,
+  "table5_scheduled_all_families": 459
+}

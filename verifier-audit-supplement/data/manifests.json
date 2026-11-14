@@ -1,0 +1,835 @@
+{
+  "appworld": {
+    "evaluators": [
+      {
+        "base_trajectory": "AWT004",
+        "evaluator": "AWE001",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT012",
+        "evaluator": "AWE002",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT008",
+        "evaluator": "AWE003",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT021",
+        "evaluator": "AWE004",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT027",
+        "evaluator": "AWE005",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT010",
+        "evaluator": "AWE006",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT028",
+        "evaluator": "AWE007",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT007",
+        "evaluator": "AWE008",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT019",
+        "evaluator": "AWE009",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT008",
+        "evaluator": "AWE010",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT002",
+        "evaluator": "AWE011",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT019",
+        "evaluator": "AWE012",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT018",
+        "evaluator": "AWE013",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT020",
+        "evaluator": "AWE014",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT001",
+        "evaluator": "AWE015",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT023",
+        "evaluator": "AWE016",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT005",
+        "evaluator": "AWE017",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT017",
+        "evaluator": "AWE018",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT002",
+        "evaluator": "AWE019",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT007",
+        "evaluator": "AWE020",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT005",
+        "evaluator": "AWE021",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT015",
+        "evaluator": "AWE022",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT009",
+        "evaluator": "AWE023",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT024",
+        "evaluator": "AWE024",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT030",
+        "evaluator": "AWE025",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT022",
+        "evaluator": "AWE026",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT021",
+        "evaluator": "AWE027",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT013",
+        "evaluator": "AWE028",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT009",
+        "evaluator": "AWE029",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT002",
+        "evaluator": "AWE030",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT016",
+        "evaluator": "AWE031",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT010",
+        "evaluator": "AWE032",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT002",
+        "evaluator": "AWE033",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT025",
+        "evaluator": "AWE034",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT006",
+        "evaluator": "AWE035",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT029",
+        "evaluator": "AWE036",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT023",
+        "evaluator": "AWE037",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT023",
+        "evaluator": "AWE038",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT001",
+        "evaluator": "AWE039",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT011",
+        "evaluator": "AWE040",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT028",
+        "evaluator": "AWE041",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT006",
+        "evaluator": "AWE042",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT017",
+        "evaluator": "AWE043",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT031",
+        "evaluator": "AWE044",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT031",
+        "evaluator": "AWE045",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT022",
+        "evaluator": "AWE046",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT025",
+        "evaluator": "AWE047",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT006",
+        "evaluator": "AWE048",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT024",
+        "evaluator": "AWE049",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT024",
+        "evaluator": "AWE050",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT024",
+        "evaluator": "AWE051",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT014",
+        "evaluator": "AWE052",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT015",
+        "evaluator": "AWE053",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT011",
+        "evaluator": "AWE054",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT008",
+        "evaluator": "AWE055",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT010",
+        "evaluator": "AWE056",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT006",
+        "evaluator": "AWE057",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT028",
+        "evaluator": "AWE058",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT008",
+        "evaluator": "AWE059",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT021",
+        "evaluator": "AWE060",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT029",
+        "evaluator": "AWE061",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT026",
+        "evaluator": "AWE062",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT004",
+        "evaluator": "AWE063",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT014",
+        "evaluator": "AWE064",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT030",
+        "evaluator": "AWE065",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT016",
+        "evaluator": "AWE066",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT003",
+        "evaluator": "AWE067",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT018",
+        "evaluator": "AWE068",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT012",
+        "evaluator": "AWE069",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT020",
+        "evaluator": "AWE070",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT010",
+        "evaluator": "AWE071",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT003",
+        "evaluator": "AWE072",
+        "kind": "moved"
+      },
+      {
+        "base_trajectory": "AWT031",
+        "evaluator": "AWE073",
+        "kind": "base"
+      },
+      {
+        "base_trajectory": "AWT031",
+        "evaluator": "AWE074",
+        "kind": "moved"
+      }
+    ],
+    "trajectories": [
+      {
+        "effect_dimensions": [
+          "AWD002"
+        ],
+        "generator": "AWG04",
+        "trajectory": "AWT001"
+      },
+      {
+        "effect_dimensions": [
+          "AWD004",
+          "AWD006",
+          "AWD010"
+        ],
+        "generator": "AWG09",
+        "trajectory": "AWT002"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG06",
+        "trajectory": "AWT003"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG11",
+        "trajectory": "AWT004"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG06",
+        "trajectory": "AWT005"
+      },
+      {
+        "effect_dimensions": [
+          "AWD004",
+          "AWD006",
+          "AWD010"
+        ],
+        "generator": "AWG09",
+        "trajectory": "AWT006"
+      },
+      {
+        "effect_dimensions": [
+          "AWD001"
+        ],
+        "generator": "AWG03",
+        "trajectory": "AWT007"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG02",
+        "trajectory": "AWT008"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG07",
+        "trajectory": "AWT009"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG02",
+        "trajectory": "AWT010"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG11",
+        "trajectory": "AWT011"
+      },
+      {
+        "effect_dimensions": [
+          "AWD010",
+          "AWD012"
+        ],
+        "generator": "AWG08",
+        "trajectory": "AWT012"
+      },
+      {
+        "effect_dimensions": [
+          "AWD006",
+          "AWD008"
+        ],
+        "generator": "AWG01",
+        "trajectory": "AWT013"
+      },
+      {
+        "effect_dimensions": [
+          "AWD010",
+          "AWD012"
+        ],
+        "generator": "AWG08",
+        "trajectory": "AWT014"
+      },
+      {
+        "effect_dimensions": [
+          "AWD002"
+        ],
+        "generator": "AWG04",
+        "trajectory": "AWT015"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG11",
+        "trajectory": "AWT016"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG07",
+        "trajectory": "AWT017"
+      },
+      {
+        "effect_dimensions": [
+          "AWD002"
+        ],
+        "generator": "AWG04",
+        "trajectory": "AWT018"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG06",
+        "trajectory": "AWT019"
+      },
+      {
+        "effect_dimensions": [
+          "AWD003",
+          "AWD007"
+        ],
+        "generator": "AWG05",
+        "trajectory": "AWT020"
+      },
+      {
+        "effect_dimensions": [
+          "AWD011"
+        ],
+        "generator": "AWG10",
+        "trajectory": "AWT021"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG07",
+        "trajectory": "AWT022"
+      },
+      {
+        "effect_dimensions": [
+          "AWD011"
+        ],
+        "generator": "AWG10",
+        "trajectory": "AWT023"
+      },
+      {
+        "effect_dimensions": [
+          "AWD005",
+          "AWD009"
+        ],
+        "generator": "AWG02",
+        "trajectory": "AWT024"
+      },
+      {
+        "effect_dimensions": [
+          "AWD010",
+          "AWD012"
+        ],
+        "generator": "AWG08",
+        "trajectory": "AWT025"
+      },
+      {
+        "effect_dimensions": [
+          "AWD006",
+          "AWD008"
+        ],
+        "generator": "AWG01",
+        "trajectory": "AWT026"
+      },
+      {
+        "effect_dimensions": [
+          "AWD006",
+          "AWD008"
+        ],
+        "generator": "AWG01",
+        "trajectory": "AWT027"
+      },
+      {
+        "effect_dimensions": [
+          "AWD011"
+        ],
+        "generator": "AWG10",
+        "trajectory": "AWT028"
+      },
+      {
+        "effect_dimensions": [
+          "AWD003",
+          "AWD007"
+        ],
+        "generator": "AWG05",
+        "trajectory": "AWT029"
+      },
+      {
+        "effect_dimensions": [
+          "AWD003",
+          "AWD007"
+        ],
+        "generator": "AWG05",
+        "trajectory": "AWT030"
+      },
+      {
+        "effect_dimensions": [
+          "AWD004",
+          "AWD006",
+          "AWD010"
+        ],
+        "generator": "AWG09",
+        "trajectory": "AWT031"
+      }
+    ]
+  },
+  "fault_arm_tasks": [
+    "AWG01-V1",
+    "AWG01-V2",
+    "AWG01-V3",
+    "AWG02-V1",
+    "AWG02-V2",
+    "AWG02-V3",
+    "AWG03-V1",
+    "AWG03-V2",
+    "AWG03-V3",
+    "AWG04-V1",
+    "AWG04-V2",
+    "AWG04-V3",
+    "AWG05-V1",
+    "AWG05-V2",
+    "AWG05-V3",
+    "AWG06-V1",
+    "AWG06-V2",
+    "AWG06-V3",
+    "AWG07-V1",
+    "AWG07-V2",
+    "AWG07-V3",
+    "AWG08-V1",
+    "AWG08-V2",
+    "AWG08-V3",
+    "AWG09-V1",
+    "AWG09-V2",
+    "AWG09-V3",
+    "AWG10-V1",
+    "AWG10-V2",
+    "AWG10-V3",
+    "AWG11-V1",
+    "AWG11-V2",
+    "AWG11-V3",
+    "AWG12-V1",
+    "AWG12-V2",
+    "AWG12-V3",
+    "AWG13-V1",
+    "AWG13-V2",
+    "AWG13-V3",
+    "AWG14-V1",
+    "AWG14-V2",
+    "AWG14-V3",
+    "AWG15-V1",
+    "AWG15-V2",
+    "AWG15-V3",
+    "AWG16-V1",
+    "AWG16-V2",
+    "AWG16-V3"
+  ],
+  "schema_version": 1,
+  "workarena": {
+    "evaluators": [
+      "WAE001",
+      "WAE002",
+      "WAE003",
+      "WAE004",
+      "WAE005",
+      "WAE006",
+      "WAE007",
+      "WAE008",
+      "WAE009",
+      "WAE010",
+      "WAE011",
+      "WAE012",
+      "WAE013",
+      "WAE014",
+      "WAE015",
+      "WAE016",
+      "WAE017",
+      "WAE018",
+      "WAE019",
+      "WAE020",
+      "WAE021",
+      "WAE022",
+      "WAE023",
+      "WAE024",
+      "WAE025",
+      "WAE026",
+      "WAE027",
+      "WAE028",
+      "WAE029",
+      "WAE030",
+      "WAE031",
+      "WAE032",
+      "WAE033",
+      "WAE034",
+      "WAE035",
+      "WAE036",
+      "WAE037",
+      "WAE038",
+      "WAE039",
+      "WAE040",
+      "WAE041",
+      "WAE042",
+      "WAE043",
+      "WAE044",
+      "WAE045",
+      "WAE046",
+      "WAE047",
+      "WAE048",
+      "WAE049",
+      "WAE050",
+      "WAE051",
+      "WAE052",
+      "WAE053",
+      "WAE054",
+      "WAE055",
+      "WAE056",
+      "WAE057",
+      "WAE058",
+      "WAE059",
+      "WAE060",
+      "WAE061",
+      "WAE062",
+      "WAE063",
+      "WAE064",
+      "WAE065",
+      "WAE066",
+      "WAE067",
+      "WAE068",
+      "WAE069",
+      "WAE070",
+      "WAE071",
+      "WAE072",
+      "WAE073",
+      "WAE074",
+      "WAE075",
+      "WAE076",
+      "WAE077",
+      "WAE078"
+    ],
+    "trajectories": [
+      "WAT001",
+      "WAT002",
+      "WAT003",
+      "WAT004",
+      "WAT005",
+      "WAT006",
+      "WAT007",
+      "WAT008",
+      "WAT009",
+      "WAT010",
+      "WAT011",
+      "WAT012",
+      "WAT013",
+      "WAT014",
+      "WAT015",
+      "WAT016",
+      "WAT017",
+      "WAT018",
+      "WAT019",
+      "WAT020",
+      "WAT021",
+      "WAT022",
+      "WAT023",
+      "WAT024",
+      "WAT025",
+      "WAT026",
+      "WAT027",
+      "WAT028",
+      "WAT029",
+      "WAT030",
+      "WAT031",
+      "WAT032",
+      "WAT033",
+      "WAT034",
+      "WAT035",
+      "WAT036",
+      "WAT037",
+      "WAT038",
+      "WAT039",
+      "WAT040",
+      "WAT041",
+      "WAT042",
+      "WAT043",
+      "WAT044",
+      "WAT045",
+      "WAT046",
+      "WAT047",
+      "WAT048",
+      "WAT049",
+      "WAT050",
+      "WAT051",
+      "WAT052",
+      "WAT053",
+      "WAT054",
+      "WAT055",
+      "WAT056",
+      "WAT057",
+      "WAT058",
+      "WAT059",
+      "WAT060",
+      "WAT061",
+      "WAT062",
+      "WAT063",
+      "WAT064",
+      "WAT065",
+      "WAT066",
+      "WAT067",
+      "WAT068",
+      "WAT069",
+      "WAT070",
+      "WAT071",
+      "WAT072",
+      "WAT073",
+      "WAT074",
+      "WAT075",
+      "WAT076",
+      "WAT077",
+      "WAT078"
+    ]
+  }
+}

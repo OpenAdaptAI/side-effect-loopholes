@@ -1,0 +1,10 @@
+Terms of use
+
+The first-party text, scripts, schemas, and derived count tables in this
+archive accompany the paper so that readers can check its counts. Anyone may
+run, copy, and inspect them for that purpose. This permission doesn't cover
+third-party material, and it doesn't grant permission to redistribute the
+archive.
+
+THIRD_PARTY_NOTICES.txt describes the source datasets and software. The
+archive contains no benchmark task text and no evaluator code.

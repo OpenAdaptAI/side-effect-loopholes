@@ -1,0 +1,122 @@
+{
+  "analysis": "E2: reward of each duplicate-write run against its clean control",
+  "deviations": 0,
+  "formulas": {
+    "all_requirements_binary": "1 if every requirement passes, else 0 (CANOPY 2609.01245)",
+    "pass_fraction": "requirements passed / requirements (LOOP 2502.01600; Entropy-Preserving RL 2603.11682)",
+    "procredit_score": "R + c (Phi_T - Phi_0) with R the binary reward and c = 0.5 (ProCredit 2609.27532)"
+  },
+  "model_calls": 0,
+  "outcome": "A",
+  "pairs": [
+    {
+      "control": {
+        "application_writes": 6,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "duplicate": {
+        "application_writes": 8,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "end_states_differ": true,
+      "generator": "22cc237",
+      "variant": 1
+    },
+    {
+      "control": {
+        "application_writes": 8,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "duplicate": {
+        "application_writes": 10,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "end_states_differ": true,
+      "generator": "22cc237",
+      "variant": 2
+    },
+    {
+      "control": {
+        "application_writes": 8,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "duplicate": {
+        "application_writes": 10,
+        "call_errors": 0,
+        "requirements": 4,
+        "requirements_passed": 4
+      },
+      "end_states_differ": true,
+      "generator": "22cc237",
+      "variant": 3
+    },
+    {
+      "control": {
+        "application_writes": 1,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "duplicate": {
+        "application_writes": 2,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "end_states_differ": true,
+      "generator": "396c5a2",
+      "variant": 1
+    },
+    {
+      "control": {
+        "application_writes": 1,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "duplicate": {
+        "application_writes": 2,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "end_states_differ": true,
+      "generator": "396c5a2",
+      "variant": 2
+    },
+    {
+      "control": {
+        "application_writes": 1,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "duplicate": {
+        "application_writes": 2,
+        "call_errors": 0,
+        "requirements": 6,
+        "requirements_passed": 6
+      },
+      "end_states_differ": true,
+      "generator": "396c5a2",
+      "variant": 3
+    }
+  ],
+  "procredit_assumptions": [
+    "The included requirement set is non-empty and the same for a duplicate and its control.",
+    "R = 1 means every requirement passes, so Phi_T = 1; Phi_0 = 0 by construction.",
+    "When R = 0, Phi_T needs the included set, which these files do not hold."
+  ],
+  "procredit_c": 0.5,
+  "schema_version": 1
+}

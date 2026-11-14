@@ -1,0 +1,551 @@
+{
+  "cells": [
+    {
+      "cell": "AWG06-V1",
+      "conditions": {
+        "control": {
+          "api_calls": 16,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 2,
+            "counter_02": 4
+          },
+          "source_sha256": {
+            "grade": "1f9713dcd04bf4021c259e8fb265804c5777a096abde39c417a4451be8649485",
+            "replay": "b82eeb43e4ccad7057579251436c35e7def0b8769fbc2d7d7f1f37770684489e"
+          }
+        },
+        "f_extra": {
+          "api_calls": 17,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 3,
+            "counter_02": 6
+          },
+          "source_sha256": {
+            "grade": "d56a979bff1db98bf4e8f5f030ac5426ec3568c41c7ead3e6b90cad323650a3e",
+            "replay": "d1eeef7ea8556f6c3446a028940d797fdf353c985a0ea524e07a1aa591cf3f75"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG06",
+      "variant": 1
+    },
+    {
+      "cell": "AWG06-V2",
+      "conditions": {
+        "control": {
+          "api_calls": 18,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 2,
+            "counter_02": 4
+          },
+          "source_sha256": {
+            "grade": "91275dfcaaf2ce5325f9ef7ea18012566f62924f51540db8ea74f9929c4a56c9",
+            "replay": "8eb6c1f3f56c8ef9635f358234213e929d6e9e7a576b553a61c883885e7431b1"
+          }
+        },
+        "f_extra": {
+          "api_calls": 19,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 3,
+            "counter_02": 6
+          },
+          "source_sha256": {
+            "grade": "69333554d32a686781424808252fe94c40167fc67a0caa446366451cde581767",
+            "replay": "37dd496661fa380ebb580f77f4c22700f53c5a3dbf4b07930b87606accc52c26"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG06",
+      "variant": 2
+    },
+    {
+      "cell": "AWG06-V3",
+      "conditions": {
+        "control": {
+          "api_calls": 28,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 3,
+            "counter_02": 6
+          },
+          "source_sha256": {
+            "grade": "64fa5e18e47beba41d00e42ad45b2ef3d23092d96f874c39a4926d6fe72c45a0",
+            "replay": "d0c7e51d203e765a42acf92e0d7260d18f8b6d5013bf77a81b63fa8d534c5e12"
+          }
+        },
+        "f_extra": {
+          "api_calls": 29,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 5,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 8
+          },
+          "source_sha256": {
+            "grade": "d328fd04d97f764fc46089b3e7ae7ded65c751652baa57a4b3e1362ec175b5ec",
+            "replay": "260a60f88d66e29cee9ffed03270b6b1746f8af606dd2a3464c24c29ab860860"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG06",
+      "variant": 3
+    },
+    {
+      "cell": "AWG01-V1",
+      "conditions": {
+        "control": {
+          "api_calls": 15,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 3,
+            "counter_02": 3
+          },
+          "source_sha256": {
+            "grade": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+            "replay": "e9bc130e2ce3f6aa37368928b9345eb4f1264aa2a792bddaa5d093d4c55e5dbe"
+          }
+        },
+        "f_extra": {
+          "api_calls": 16,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 4
+          },
+          "source_sha256": {
+            "grade": "b637fc2a726204fd55cf54e5ed0511bf01d674e5cf00c5950db894123bbdcda8",
+            "replay": "93112d00c5db80bb71e7440eb6546bd4887b6995fb89c3e55f45c288cf90f9f3"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG01",
+      "variant": 1
+    },
+    {
+      "cell": "AWG01-V2",
+      "conditions": {
+        "control": {
+          "api_calls": 15,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 4
+          },
+          "source_sha256": {
+            "grade": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+            "replay": "376cf82d8d8aa6a0475fb7a8e12d5d1a9f9c457435b680de11c3f900f2fdae1b"
+          }
+        },
+        "f_extra": {
+          "api_calls": 16,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 5,
+            "counter_02": 5
+          },
+          "source_sha256": {
+            "grade": "6a83483c3112a3b30c73c3991eade619f00acf71861a8c1124734e3645442c07",
+            "replay": "94405e09524cdb510a879b0ad7c091725dfea82bc9d14d9fdbc74c2ce2499283"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG01",
+      "variant": 2
+    },
+    {
+      "cell": "AWG01-V3",
+      "conditions": {
+        "control": {
+          "api_calls": 16,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 4
+          },
+          "source_sha256": {
+            "grade": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+            "replay": "2ece259e7e78fefaa9ec4336cb626ff30335be01f4a147c5aa3699ff04e3b374"
+          }
+        },
+        "f_extra": {
+          "api_calls": 17,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 4,
+          "counters": {
+            "counter_01": 5,
+            "counter_02": 5
+          },
+          "source_sha256": {
+            "grade": "2b990f49b835b2217cc8b0641eeaec4046475b355b33430b0f51bb364a8ec847",
+            "replay": "3fcda8a8d9a20ec46eb7360700dc892e2f01b974a74655954f9b1727de0648b1"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG01",
+      "variant": 3
+    },
+    {
+      "cell": "AWG14-V1",
+      "conditions": {
+        "control": {
+          "api_calls": 9,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1,
+            "counter_02": 1,
+            "counter_03": 1,
+            "counter_04": 1
+          },
+          "source_sha256": {
+            "grade": "79c417fdcf1dd53214667b31a7088618a2e60c45cb7b2bb54bb044c6d2341a34",
+            "replay": "890d98daafa3dffd93307328611ddc08fedb38ebb2f5e2446cb14ad6d9d050dd"
+          }
+        },
+        "f_extra": {
+          "api_calls": 10,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2,
+            "counter_02": 2,
+            "counter_03": 2,
+            "counter_04": 2
+          },
+          "source_sha256": {
+            "grade": "d6dc0a608b3e4599af02302fb63e84baa6c3696e9f42606a3c65d277d6dbc428",
+            "replay": "4195034e277c68bbeefa02845636cd5f42ced5804dabf75e9bb1814677ab8d1c"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG14",
+      "variant": 1
+    },
+    {
+      "cell": "AWG14-V2",
+      "conditions": {
+        "control": {
+          "api_calls": 7,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1,
+            "counter_02": 1,
+            "counter_03": 1,
+            "counter_04": 1
+          },
+          "source_sha256": {
+            "grade": "ce29b363b00e8cba0083107f31f94aa87dcaba5d0dd16028fa52f04945104898",
+            "replay": "8b38ccb61e1c30ca867fdf05458818bbbec16cd5aa7b7722ad6e749829a0a6a3"
+          }
+        },
+        "f_extra": {
+          "api_calls": 8,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2,
+            "counter_02": 2,
+            "counter_03": 2,
+            "counter_04": 2
+          },
+          "source_sha256": {
+            "grade": "1fb6503b6daf787aac64477e285a727d31d99f553ae979c5d7b68790ab8cd3f5",
+            "replay": "769756861b6df422c0b136702e7a583ea8c02d31a934b019f4ae4b3d89c7177b"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG14",
+      "variant": 2
+    },
+    {
+      "cell": "AWG14-V3",
+      "conditions": {
+        "control": {
+          "api_calls": 7,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1,
+            "counter_02": 1,
+            "counter_03": 1,
+            "counter_04": 1
+          },
+          "source_sha256": {
+            "grade": "3b696606211b17914024cbc0363ea8029c8a3fd5e1bebe9351f39537dcd4122d",
+            "replay": "af2799a7ad1b1cfdacb6fdf187793cdbd04a92ac8b4d106c870d3b25406701ad"
+          }
+        },
+        "f_extra": {
+          "api_calls": 8,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2,
+            "counter_02": 2,
+            "counter_03": 2,
+            "counter_04": 2
+          },
+          "source_sha256": {
+            "grade": "4463dc8fb8dd7b0705d9d13687d8b3da691b4e005d35ba06514278ebe6327c4d",
+            "replay": "7b58a11373dce63635d17da710f4927d5675f0b0d239a846941e120b0714c6e6"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG14",
+      "variant": 3
+    },
+    {
+      "cell": "AWG03-V1",
+      "conditions": {
+        "control": {
+          "api_calls": 5,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1
+          },
+          "source_sha256": {
+            "grade": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+            "replay": "ef579116a99e208845b550a8ccd7db7cb6713cac80e42ee3c22f00b2802ccf13"
+          }
+        },
+        "f_extra": {
+          "api_calls": 6,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2
+          },
+          "source_sha256": {
+            "grade": "16ce29130992ef858196cadbd31702197f54313f76785c5e72f295be3258331f",
+            "replay": "8a2cb04ab605343f2f0643d0ab72446da0318dc2fee263ea74a311223dfa937f"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG03",
+      "variant": 1
+    },
+    {
+      "cell": "AWG03-V2",
+      "conditions": {
+        "control": {
+          "api_calls": 5,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1
+          },
+          "source_sha256": {
+            "grade": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+            "replay": "c351bab1ee26135bef089c593c3e4ca48a61895cd32e788be474cce391839661"
+          }
+        },
+        "f_extra": {
+          "api_calls": 6,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2
+          },
+          "source_sha256": {
+            "grade": "4732d16098d40166bfb88ababfd7b0c09d5a74a25b8087eb0f183fc20a9894b2",
+            "replay": "9a749d1db00d3ad531827c0c593b60a4b879d1932998bfd8ec1abe59a3172a4e"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG03",
+      "variant": 2
+    },
+    {
+      "cell": "AWG03-V3",
+      "conditions": {
+        "control": {
+          "api_calls": 5,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 1
+          },
+          "source_sha256": {
+            "grade": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+            "replay": "24bca00b94a9bb283c1b3c7b475e5959474955f0e55cfc3ac47b5289a98fadba"
+          }
+        },
+        "f_extra": {
+          "api_calls": 6,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 6,
+          "counters": {
+            "counter_01": 2
+          },
+          "source_sha256": {
+            "grade": "67ff309f2c69c3f98349d6bd6e3304122ab4bbc6b76fef60c4c05e297db4a0e3",
+            "replay": "b8925b32514f7b3540baa050bc68e596de447e75dd5c28f26baed093a86fd067"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG03",
+      "variant": 3
+    },
+    {
+      "cell": "AWG16-V1",
+      "conditions": {
+        "control": {
+          "api_calls": 7,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 37
+          },
+          "source_sha256": {
+            "grade": "049aa8fde48a13af4b04f01e637120b9a42ae8baa956f41a5564b9c64b52f901",
+            "replay": "b5c911c6ae25c78df68ffaee246b7f1d7dacb97a90a16204d04ac455b2cf4875"
+          }
+        },
+        "f_extra": {
+          "api_calls": 8,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 38
+          },
+          "source_sha256": {
+            "grade": "be5759e6b1a530ef3e765a88ff194a26ff402608c7789fd605d3ca8c6aa0a0e3",
+            "replay": "32c07b2f44b962f1cc9eda137452483b1377573ba33a15e62a27ddf65efd2ece"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG16",
+      "variant": 1
+    },
+    {
+      "cell": "AWG16-V2",
+      "conditions": {
+        "control": {
+          "api_calls": 7,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 37
+          },
+          "source_sha256": {
+            "grade": "446b8d7db5c0c49f802db15abc4d2f7dea163ec9c38237304a17caee8526a153",
+            "replay": "bab28f1dc785e9107c6e80ab6d0895b55e9ffe567ebd5274ae345ac93fc229c6"
+          }
+        },
+        "f_extra": {
+          "api_calls": 8,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 38
+          },
+          "source_sha256": {
+            "grade": "4cfd6d1d74e0262f7f77979c6cf4304ed10f01427ec67479ff080d055a5d2f1a",
+            "replay": "0a718a2711ffc2121bb3df6a4bf9494523d7fbc2f4966e9b710d2f24f8ea9a84"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG16",
+      "variant": 2
+    },
+    {
+      "cell": "AWG16-V3",
+      "conditions": {
+        "control": {
+          "api_calls": 7,
+          "call_errors": 0,
+          "checker_pass": true,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 37
+          },
+          "source_sha256": {
+            "grade": "206155d14cb67dc90323f76134a03a1bd9b0c39eb2bb8df5cd16f5ce36052bb3",
+            "replay": "092659723a4006c0f25e000bad1cce2a3db70d07a47cde01e34bac0d1eee23ce"
+          }
+        },
+        "f_extra": {
+          "api_calls": 8,
+          "call_errors": 0,
+          "checker_pass": false,
+          "checker_tests": 8,
+          "counters": {
+            "counter_01": 4,
+            "counter_02": 38
+          },
+          "source_sha256": {
+            "grade": "2c185a8144c44149ad4d4a398f96715be02c41deb274e0b5c7e402b96dde1785",
+            "replay": "a5c4bb1a6d4df29085c19f60ab1b0e034e5d30e1395e76ab8ff871364450ac51"
+          }
+        }
+      },
+      "evidence_kind": "paired-replay-application-cardinality",
+      "generator": "AWG16",
+      "variant": 3
+    }
+  ],
+  "schema_version": 1
+}

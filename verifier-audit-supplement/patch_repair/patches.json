@@ -1,0 +1,58 @@
+{
+  "patches": [
+    {
+      "change": {
+        "assertion": "the number of payment-request records the run added equals the number of entries in the task's expected receiver-to-amount mapping, which is the number of payment requests the task asks for",
+        "assertions_added": 1,
+        "enclosing_requirement": "the shipped requirement that collects the added, updated, and removed payment-request records and asserts that none were updated or removed",
+        "inserted_after_shipped_line": 61,
+        "inserted_line_count": 5,
+        "kind": "insert-only",
+        "requirement_blocks_added": 0,
+        "shipped_lines_changed_or_deleted": 0
+      },
+      "generator": "22cc237",
+      "provenance_comment": {
+        "inserted_after_shipped_line": 1,
+        "line_count": 3,
+        "records": "the shipped test's SHA-256 and a one-line patch note"
+      },
+      "regraded_copy_sha256": "8030296e0146fd945e7312fa1248342d366e654c4d8576969301822599eadbcb",
+      "shipped_line_count": 74,
+      "shipped_test_sha256": "d2fe0f972ecc16e0ed11dc2b42ca18827d4bfc4d1904892ff02f9eead4df078b",
+      "variants": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "change": {
+        "assertion": "the length of the end-state song queue equals the number of songs already queued plus the number of songs the task asks to add",
+        "assertions_added": 1,
+        "enclosing_requirement": "the shipped requirement that compares the end-state song queue, as a set, with the union of the songs already queued and the songs to add",
+        "inserted_after_shipped_line": 82,
+        "inserted_line_count": 6,
+        "kind": "insert-only",
+        "requirement_blocks_added": 0,
+        "shipped_lines_changed_or_deleted": 0
+      },
+      "generator": "396c5a2",
+      "provenance_comment": {
+        "inserted_after_shipped_line": 1,
+        "line_count": 5,
+        "records": "the shipped test's SHA-256 and a one-line patch note"
+      },
+      "regraded_copy_sha256": "85d70e4c4533974f7b07e496e48d3635bbdb52e8d435d8a7a9aeab7bdc3505e3",
+      "shipped_line_count": 82,
+      "shipped_test_sha256": "d90c762a35becfc289f47bc97f19c40f90b285cdea7c65b7726777e5f51ecc4e",
+      "variants": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "redistribution": "digests-and-description-only-no-appworld-source-lines",
+  "schema_version": 1
+}

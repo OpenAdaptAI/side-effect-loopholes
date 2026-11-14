@@ -1,0 +1,956 @@
+{
+  "schema_version": 1,
+  "tasks": [
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 2,
+      "generator": "AWG06",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG06-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              2,
+              3
+            ],
+            "counter_02": [
+              4,
+              6
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 2,
+      "generator": "AWG06",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG06-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              2,
+              3
+            ],
+            "counter_02": [
+              4,
+              6
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 3,
+      "generator": "AWG06",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG06-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              3,
+              4
+            ],
+            "counter_02": [
+              6,
+              8
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 3,
+      "generator": "AWG01",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG01-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              3,
+              4
+            ],
+            "counter_02": [
+              3,
+              4
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG01",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG01-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              4,
+              5
+            ],
+            "counter_02": [
+              4,
+              5
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG01",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG01-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              4,
+              5
+            ],
+            "counter_02": [
+              4,
+              5
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG12",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG12-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 8,
+      "generator": "AWG12",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG12-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 15,
+      "generator": "AWG12",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG12-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG15",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG15-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 3,
+      "generator": "AWG15",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG15-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG15",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG15-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 42,
+      "generator": "AWG02",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG02-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 37,
+      "generator": "AWG02",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG02-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 31,
+      "generator": "AWG02",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG02-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG14",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG14-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ],
+            "counter_02": [
+              1,
+              2
+            ],
+            "counter_03": [
+              1,
+              2
+            ],
+            "counter_04": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 2,
+      "generator": "AWG14",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG14-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ],
+            "counter_02": [
+              1,
+              2
+            ],
+            "counter_03": [
+              1,
+              2
+            ],
+            "counter_04": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 2,
+      "generator": "AWG14",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG14-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ],
+            "counter_02": [
+              1,
+              2
+            ],
+            "counter_03": [
+              1,
+              2
+            ],
+            "counter_04": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG03",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG03-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG03",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG03-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG03",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG03-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              1,
+              2
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 90,
+      "generator": "AWG13",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG13-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 58,
+      "generator": "AWG13",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG13-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 82,
+      "generator": "AWG13",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG13-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 100,
+      "generator": "AWG07",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG07-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 60,
+      "generator": "AWG07",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG07-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 63,
+      "generator": "AWG07",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG07-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 28,
+      "generator": "AWG11",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG11-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 26,
+      "generator": "AWG11",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG11-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 38,
+      "generator": "AWG11",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG11-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG16",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG16-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              37,
+              38
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG16",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG16-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              37,
+              38
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 4,
+      "generator": "AWG16",
+      "mutation_eligible": true,
+      "refusal": null,
+      "task": "AWG16-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {
+            "counter_01": [
+              37,
+              38
+            ]
+          },
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 13,
+      "generator": "AWG10",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG10-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 5,
+      "generator": "AWG10",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG10-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 13,
+      "generator": "AWG10",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG10-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG05",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG05-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG05",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG05-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG05",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG05-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG04",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG04-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG04",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG04-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 1,
+      "generator": "AWG04",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG04-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 19,
+      "generator": "AWG08",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG08-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 20,
+      "generator": "AWG08",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG08-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 20,
+      "generator": "AWG08",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG08-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 5,
+      "generator": "AWG09",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG09-V1",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 1
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 24,
+      "generator": "AWG09",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG09-V2",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 2
+    },
+    {
+      "control_call_errors": 0,
+      "effectful_call_count": 43,
+      "generator": "AWG09",
+      "mutation_eligible": true,
+      "refusal": "ALL_WRITES_IDEMPOTENT",
+      "task": "AWG09-V3",
+      "tested": [
+        {
+          "call_errors": 0,
+          "candidate_ordinal": 1,
+          "counter_pairs": {},
+          "status": "RAN"
+        }
+      ],
+      "variant": 3
+    }
+  ]
+}

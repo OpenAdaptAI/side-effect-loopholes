@@ -1,0 +1,208 @@
+{
+  "budgets": {
+    "illustrative_cluster_95": {
+      "alpha_max": 0.8107,
+      "basis": "illustrative one-sided 95% Clopper-Pearson envelopes under an exchangeable-generator model: 2/5 F-EXTRA generators and 0/11 control generators",
+      "beta_max": 0.2384
+    },
+    "observed_magnitude": {
+      "alpha_max": 0.4,
+      "basis": "2/5 positive F-EXTRA generators; 0/31 distinct controls from 11 generators",
+      "beta_max": 0.0
+    }
+  },
+  "false_accept_input": {
+    "confirmed_cells": 6,
+    "generator_clusters": 5,
+    "independently_verified_wrong_effect_cells": 15,
+    "positive_generators": 2
+  },
+  "false_reject_input": {
+    "control_generators": 11,
+    "distinct_controls": 31,
+    "false_rejects": 0,
+    "raw_judged_rows_before_deduplication": 75
+  },
+  "interpretation": "sensitivity-intervals-not-regraded-ranks",
+  "metric": "Task Goal Completion",
+  "official_archive": {
+    "bundle": "https://s3.us-west-2.amazonaws.com/appworld.dev/experiment-outputs-0.1.0.bundle",
+    "bundle_version": "0.1.0",
+    "factual_subset_sha256": "f83096970eba5eee9272dc6edddd88108d04f246fb56dd4380a63484ed769aaa"
+  },
+  "schema_version": 1,
+  "splits": {
+    "test_challenge": [
+      {
+        "configuration": "C01",
+        "shipped_q": 0.302158,
+        "successes": 126,
+        "tasks": 417
+      },
+      {
+        "configuration": "C02",
+        "shipped_q": 0.196643,
+        "successes": 82,
+        "tasks": 417
+      },
+      {
+        "configuration": "C03",
+        "shipped_q": 0.191847,
+        "successes": 80,
+        "tasks": 417
+      },
+      {
+        "configuration": "C04",
+        "shipped_q": 0.179856,
+        "successes": 75,
+        "tasks": 417
+      },
+      {
+        "configuration": "C05",
+        "shipped_q": 0.17506,
+        "successes": 73,
+        "tasks": 417
+      },
+      {
+        "configuration": "C06",
+        "shipped_q": 0.146283,
+        "successes": 61,
+        "tasks": 417
+      },
+      {
+        "configuration": "C07",
+        "shipped_q": 0.1247,
+        "successes": 52,
+        "tasks": 417
+      },
+      {
+        "configuration": "C08",
+        "shipped_q": 0.110312,
+        "successes": 46,
+        "tasks": 417
+      },
+      {
+        "configuration": "C09",
+        "shipped_q": 0.069544,
+        "successes": 29,
+        "tasks": 417
+      },
+      {
+        "configuration": "C10",
+        "shipped_q": 0.057554,
+        "successes": 24,
+        "tasks": 417
+      },
+      {
+        "configuration": "C11",
+        "shipped_q": 0.033573,
+        "successes": 14,
+        "tasks": 417
+      },
+      {
+        "configuration": "C12",
+        "shipped_q": 0.028777,
+        "successes": 12,
+        "tasks": 417
+      },
+      {
+        "configuration": "C13",
+        "shipped_q": 0.023981,
+        "successes": 10,
+        "tasks": 417
+      },
+      {
+        "configuration": "C14",
+        "shipped_q": 0.007194,
+        "successes": 3,
+        "tasks": 417
+      }
+    ],
+    "test_normal": [
+      {
+        "configuration": "C01",
+        "shipped_q": 0.488095,
+        "successes": 82,
+        "tasks": 168
+      },
+      {
+        "configuration": "C02",
+        "shipped_q": 0.446429,
+        "successes": 75,
+        "tasks": 168
+      },
+      {
+        "configuration": "C03",
+        "shipped_q": 0.339286,
+        "successes": 57,
+        "tasks": 168
+      },
+      {
+        "configuration": "C04",
+        "shipped_q": 0.327381,
+        "successes": 55,
+        "tasks": 168
+      },
+      {
+        "configuration": "C05",
+        "shipped_q": 0.321429,
+        "successes": 54,
+        "tasks": 168
+      },
+      {
+        "configuration": "C06",
+        "shipped_q": 0.303571,
+        "successes": 51,
+        "tasks": 168
+      },
+      {
+        "configuration": "C07",
+        "shipped_q": 0.267857,
+        "successes": 45,
+        "tasks": 168
+      },
+      {
+        "configuration": "C08",
+        "shipped_q": 0.255952,
+        "successes": 43,
+        "tasks": 168
+      },
+      {
+        "configuration": "C09",
+        "shipped_q": 0.244048,
+        "successes": 41,
+        "tasks": 168
+      },
+      {
+        "configuration": "C10",
+        "shipped_q": 0.208333,
+        "successes": 35,
+        "tasks": 168
+      },
+      {
+        "configuration": "C11",
+        "shipped_q": 0.130952,
+        "successes": 22,
+        "tasks": 168
+      },
+      {
+        "configuration": "C12",
+        "shipped_q": 0.089286,
+        "successes": 15,
+        "tasks": 168
+      },
+      {
+        "configuration": "C13",
+        "shipped_q": 0.071429,
+        "successes": 12,
+        "tasks": 168
+      },
+      {
+        "configuration": "C14",
+        "shipped_q": 0.017857,
+        "successes": 3,
+        "tasks": 168
+      }
+    ]
+  }
+}

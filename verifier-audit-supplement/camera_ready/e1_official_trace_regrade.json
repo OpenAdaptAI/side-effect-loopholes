@@ -1,0 +1,56 @@
+{
+  "analysis": "E1: repeated create calls in AppWorld's released baseline outputs",
+  "configurations": 28,
+  "deviations": 0,
+  "fail_rows": 6913,
+  "fail_rows_hit": {
+    "A": 28,
+    "B": 29,
+    "C": 6
+  },
+  "fail_rows_hit_by_target": {
+    "A": {
+      "payment_request_create": 28,
+      "song_queue_add": 0
+    },
+    "B": {
+      "payment_request_create": 29,
+      "song_queue_add": 0
+    }
+  },
+  "inputs": "AppWorld experiment-outputs-0.1.0, test_normal and test_challenge",
+  "missing_call_logs": 0,
+  "model_calls": 0,
+  "official_outputs_fingerprint_sha256": "d54a5f020f5dd551c1fe3dda4cc4277275b5c6ab45c95ab699ef7fce7323455d",
+  "pass_rows": 1277,
+  "pass_rows_hit": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "pass_rows_hit_by_target": {
+    "A": {
+      "payment_request_create": 0,
+      "song_queue_add": 0
+    },
+    "B": {
+      "payment_request_create": 0,
+      "song_queue_add": 0
+    }
+  },
+  "question_1_outcome": "A",
+  "question_2_outcome": "R",
+  "reconciliation": {
+    "explanation": "one failing run sent the payment-request create call once without an access token and again after it logged in; it holds two inserts and no identical pair",
+    "rows_in_A_not_B": 0,
+    "rows_in_B_not_A": 1
+  },
+  "rows": 8190,
+  "rule_definitions": {
+    "A": "the same target create call with the same payload, access token included, sent two or more times",
+    "B": "rule A with the access token removed from the payload",
+    "C": "two inserted payment-request rows equal after timestamps, identifiers and record hashes are dropped"
+  },
+  "schema_version": 1,
+  "unparsed_lines": 0
+}
