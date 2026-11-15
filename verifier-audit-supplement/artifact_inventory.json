@@ -201,6 +201,14 @@
       "transform": "aggregate-summary-of-committed-output"
     },
     {
+      "archive_path": "camera_ready/workarena_perstep_rerun_episodes.json",
+      "increment": "workarena-perstep-rerun-results",
+      "license": "Apache-2.0",
+      "source_path": "analysis/intent_swap/wa_perstep_bgsubmit_2026_11/results.json",
+      "source_sha256": "564d64c0549733990b7731e757624a10bf9c389f1e3430f8c12dba6647f3c539",
+      "transform": "aggregate-summary-of-committed-output"
+    },
+    {
       "archive_path": "patch_repair/PROTOCOL_PATCH_REPAIR_2026_08_30.md",
       "increment": "appworld-patch-repair",
       "license": "first-party",

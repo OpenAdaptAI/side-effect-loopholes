@@ -707,6 +707,42 @@ def workarena_perstep() -> dict:
             **{k: f"{v[0]}/{v[1]}" for k, v in out.items()}}
 
 
+def workarena_perstep_rerun() -> dict:
+    """Counts of the 15 November rerun: the correct run and the fill-last
+    edited run for each text or reference field, with BrowserGym's own
+    post-step call at submit as the final grade."""
+    report = load_member("camera_ready/workarena_perstep_rerun_episodes.json")
+    episodes = [e for g in report["groups"] for e in g["episodes"]]
+    require(len(episodes) == report["run_episodes"] == report["scheduled_episodes"],
+            "rerun episodes do not add up")
+    require(sum(e["valid"] for e in episodes) == report["valid_episodes"], "rerun valid count")
+    complete = [g for g in report["groups"] if g["complete_valid"]]
+    require(len(complete) == report["complete_valid_groups"], "rerun complete groups")
+    out = {"ended_before_submit": [0, 0], "control_submit_reward_1": [0, 0],
+           "edited_submit_reward_1": [0, 0], "edited_extra_value_confirmed": [0, 0]}
+
+    def add(key: str, hit: bool) -> None:
+        out[key][0] += int(bool(hit))
+        out[key][1] += 1
+
+    for group in complete:
+        for e in group["episodes"]:
+            require(e["mode"] == "perstep_bgsubmit" and "submit_step_reward" in e,
+                    "rerun episode lacks a submit-step grade")
+            add("ended_before_submit", e["first_terminal_step"] is not None)
+            if e["condition"] == "control":
+                add("control_submit_reward_1", e["submit_step_reward"] == 1)
+            else:
+                require(e["placement"] == "last", "rerun edited run is not fill-last")
+                add("edited_submit_reward_1", e["submit_step_reward"] == 1)
+                add("edited_extra_value_confirmed",
+                    e["readback_status"] == "CONFIRMED_MUTATED_EFFECT")
+    return {"scheduled_episodes": report["scheduled_episodes"],
+            "valid_episodes": report["valid_episodes"],
+            "complete_valid_groups": report["complete_valid_groups"],
+            **{k: f"{v[0]}/{v[1]}" for k, v in out.items()}}
+
+
 def camera_ready(swap: dict, vectors: list[dict], readback: dict) -> dict:
     return {
         "operator_tally": operator_tally(swap, vectors),
@@ -717,6 +753,7 @@ def camera_ready(swap: dict, vectors: list[dict], readback: dict) -> dict:
         "e2_reward_equivalence": reward_equivalence(),
         "e6_natural_runs": natural_runs(),
         "workarena_perstep": workarena_perstep(),
+        "workarena_perstep_rerun": workarena_perstep_rerun(),
     }
 
 

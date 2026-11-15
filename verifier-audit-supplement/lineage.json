@@ -39,6 +39,11 @@
       "after_stage": "camera-ready-zero-cost-results",
       "event": "appworld-evaluator-copies-removed",
       "order": 7
+    },
+    {
+      "after_stage": "workarena-perstep-results",
+      "event": "workarena-perstep-rerun-results",
+      "order": 8
     }
   ],
   "study_stages": [

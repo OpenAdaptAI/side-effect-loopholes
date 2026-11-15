@@ -10,10 +10,11 @@ positive only when a separate read of the end state shows the wrong change.
 ## What is here
 
 `verifier-audit-supplement/` is the same archive as the paper's supplement on
-OpenReview (70,533-byte ZIP, SHA-256
-`12a22e73052888099011d670a03abfa0fb83310d29c0c044aa1c2d4e03675263`). Its
-standard-library reproducer recomputes every count in the paper from the
-packaged evidence:
+OpenReview (73,296-byte ZIP, SHA-256
+`9c5e7373925a4203962ced60c77ab46db5d871c8ba773b137fd92a21bce53554`). It
+includes the 15 November 2026 rerun of the WorkArena per-step episodes, graded
+at submit by BrowserGym's own post-step call. Its standard-library reproducer
+recomputes the paper's counts from the packaged evidence:
 
 ```bash
 cd verifier-audit-supplement

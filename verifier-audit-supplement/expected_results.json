@@ -124,6 +124,15 @@
       "scheduled_episodes": 84,
       "valid_episodes": 83
     },
+    "workarena_perstep_rerun": {
+      "complete_valid_groups": 8,
+      "control_submit_reward_1": "8/8",
+      "edited_extra_value_confirmed": "8/8",
+      "edited_submit_reward_1": "8/8",
+      "ended_before_submit": "0/16",
+      "scheduled_episodes": 16,
+      "valid_episodes": 16
+    },
     "workarena_rerun_withdrawal": {
       "deep_copy_cells_any_expected_value_changed": 0,
       "hardware_asset_cells": 9,
